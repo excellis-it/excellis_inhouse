@@ -353,10 +353,9 @@ const SoftwareDevelopment = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">
-                    Gets the most out of your campaigns, by taking every detail
-                    into consideration with PPC Management Services.
+                    Do you want to create a solid software development solution?
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className="light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1381,9 +1380,11 @@ const SoftwareDevelopment = () => {
                 style={{ backgroundImage: `url(${cta_bg2})` }}
               >
                 <div className="cta2_content_sec text-left">
-                  <h4 className="mb-4">Want to get a high ROI?</h4>
-                  <Link className=" light-btn" to="/ContactUs">
-                    Contact Us
+                  <h4 className="mb-4">
+                    Innovation & Technology are at the heart of all we do!{" "}
+                  </h4>
+                  <Link className=" light-btn" to="/partner-with-us">
+                    Partner with us.
                   </Link>
                 </div>
               </div>
@@ -1407,11 +1408,9 @@ const SoftwareDevelopment = () => {
                 style={{ backgroundImage: `url(${cta_bg3})` }}
               >
                 <div className="cta2_content_sec text-center w-100">
-                  <h4 className="mb-4">
-                    Grow your business with PPC campaign management
-                  </h4>
-                  <Link className=" light-btn" to="/ContactUs">
-                    Contact Us
+                  <h4 className="mb-4">We Simplify Your Work!</h4>
+                  <Link className=" light-btn" to="/partner-with-us">
+                    Partner with us.
                   </Link>
                 </div>
               </div>

@@ -40,6 +40,7 @@ import CallCenterOutsourcing from "./BpoServices/CallCenterOutsourcing";
 import EcommerceOutsourcing from "./BpoServices/EcommerceOutsourcing";
 import PerformanceCompliancemanagement from "./BpoServices/PerformanceCompliancemanagement";
 import ProfessionalServices from "./BpoServices/ProfessionalServices";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   AOS.init({
@@ -53,75 +54,81 @@ function App() {
 
   return (
     <div>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/OurServices" component={MainServices} />
-        <Route exact path="/process" component={Process} />
-        <Route exact path="/Ourblogs" component={BlogPage} />
-        <Route exact path="/blogDetail/:Title" component={BlogDetails} />
-        <Route exact path="/JobRole/:id" component={JobRole} />
-        <Route exact path="/privacy-policy" component={PrivacyPolicy} />
-        <Route exact path="/terms-and-condition" component={TermConditions} />
-        <Route exact path="/contactus" component={ContactUs} />
-        <Route exact path="/itServices" component={ItServices} />
-        <Route exact path="/mobile-application" component={MobileApplication} />
-        <Route
-          exact
-          path="/software-development"
-          component={SoftwareDevelopment}
-        />
-        <Route exact path="/ui-ux-design" component={UiUxDesign} />
-        <Route exact path="/web-development" component={WebDevelopment} />
-        <Route exact path="/partner-with-us" component={PartnerWithUs} />
-        <Route exact path="/QA-testing" component={QaAndTesting} />
-        <Route exact path="/Portfolio" component={Portfolio} />
-        <Route
-          exact
-          path="/call-center-outsourcing-service"
-          component={CallCenterOutsourcing}
-        />
-        <Route
-          exact
-          path="/ecommerce-outsourcing-services"
-          component={EcommerceOutsourcing}
-        />
-        <Route
-          exact
-          path="/performance-compliance-management"
-          component={PerformanceCompliancemanagement}
-        />
-        <Route
-          exact
-          path="/professional-services"
-          component={ProfessionalServices}
-        />
-        <Route
-          exact
-          path="/search-engine-optimization"
-          component={SearchEngineOptimization}
-        />
-        <Route
-          exact
-          path="/social-media-marketing"
-          component={SocialMediaMarketing}
-        />
-        <Route exact path="/pay-per-click" component={PayPerClick} />
-        <Route
-          exact
-          path="/back-office-process-outsourcing-services"
-          component={BackOfficeProcessOutsourcing}
-        />
-        <Route exact path="/email-marketing" component={EmailMarketing} />
-        <Route exact path="/content-marketing" component={ContentMarketing} />
-        <Route exact path="/career" component={CareerPage} />
-        <Route
-          exact
-          path="/google-my-business-optimization"
-          component={GoogleMyBusiness}
-        />
-        <Route exact component={Error} />
-      </Switch>
+      <ScrollToTop>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/OurServices" component={MainServices} />
+          <Route exact path="/process" component={Process} />
+          <Route exact path="/blog" component={BlogPage} />
+          <Route exact path="/blogDetail/:Title" component={BlogDetails} />
+          <Route exact path="/JobRole/:id" component={JobRole} />
+          <Route exact path="/privacy-policy" component={PrivacyPolicy} />
+          <Route exact path="/terms-and-condition" component={TermConditions} />
+          <Route exact path="/contact-us" component={ContactUs} />
+          <Route exact path="/itServices" component={ItServices} />
+          <Route
+            exact
+            path="/mobile-app-development"
+            component={MobileApplication}
+          />
+          <Route
+            exact
+            path="/software-development"
+            component={SoftwareDevelopment}
+          />
+          <Route exact path="/ui-ux-design" component={UiUxDesign} />
+          <Route exact path="/web-development" component={WebDevelopment} />
+          <Route exact path="/partner-with-us" component={PartnerWithUs} />
+          <Route exact path="/QA-testing" component={QaAndTesting} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route
+            exact
+            path="/call-center-outsourcing-service"
+            component={CallCenterOutsourcing}
+          />
+          <Route
+            exact
+            path="/ecommerce-outsourcing-services"
+            component={EcommerceOutsourcing}
+          />
+          <Route
+            exact
+            path="/performance-compliance-management"
+            component={PerformanceCompliancemanagement}
+          />
+          <Route
+            exact
+            path="/professional-services"
+            component={ProfessionalServices}
+          />
+          <Route
+            exact
+            path="/search-engine-optimization"
+            component={SearchEngineOptimization}
+          />
+          <Route
+            exact
+            path="/social-media-marketing"
+            component={SocialMediaMarketing}
+          />
+          <Route exact path="/pay-per-click" component={PayPerClick} />
+          <Route
+            exact
+            path="/back-office-process-outsourcing-services"
+            component={BackOfficeProcessOutsourcing}
+          />
+          <Route exact path="/email-marketing" component={EmailMarketing} />
+          <Route exact path="/content-marketing" component={ContentMarketing} />
+          <Route exact path="/career-opportunities" component={CareerPage} />
+          <Route
+            exact
+            path="/google-my-business-optimization"
+            component={GoogleMyBusiness}
+          />
+          <Route exact component={Error} />
+        </Switch>
+      </ScrollToTop>
     </div>
   );
 }

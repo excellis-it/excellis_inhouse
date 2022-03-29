@@ -68,27 +68,27 @@ const MainServices = ({ activeStatus }) => {
                           <div className="it_servies_list_item">
                             <ul>
                               <li>
-                                <NavLink to="/mobileApplication">
+                                <NavLink to="/mobile-app-development">
                                   Mobile Application
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="/softwareDevelopment">
+                                <NavLink to="/software-development">
                                   Software Development
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="/UiUxDesign">
+                                <NavLink to="/ui-ux-design">
                                   UI / UX Design
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="/WebDevelopment">
+                                <NavLink to="/web-development">
                                   Web Developemnt
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="/UiUxDesign">QA & Testing</NavLink>
+                                <NavLink to="/QA-testing">QA & Testing</NavLink>
                               </li>
                               <li>
                                 <a href="#"></a>
@@ -123,22 +123,34 @@ const MainServices = ({ activeStatus }) => {
                           <div className="it_servies_list_item">
                             <ul>
                               <li>
-                                <a href="#">Search engine Marketing</a>
+                                <NavLink to="/search-engine-optimization">
+                                  Search engine Marketing
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Social media marketing</a>
+                                <NavLink to="/social-media-marketing">
+                                  Social media marketing
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Pay per click</a>
+                                <NavLink to="/pay-per-click">
+                                  Pay per click
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Email Marketing</a>
+                                <NavLink to="/email-marketing">
+                                  Email Marketing
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Content Marketing</a>
+                                <NavLink to="/content-marketing">
+                                  Content Marketing
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Google my business optimization</a>
+                                <NavLink to="/google-my-business-optimization">
+                                  Google my business optimization
+                                </NavLink>
                               </li>
                             </ul>
                           </div>
@@ -170,24 +182,34 @@ const MainServices = ({ activeStatus }) => {
                           <div className="it_servies_list_item">
                             <ul>
                               <li>
-                                <a href="#">Back office process outsourcing</a>
+                                <NavLink to="/back-office-process-outsourcing-services">
+                                  Back office process outsourcing
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Call center outsourcing</a>
+                                <NavLink to="/call-center-outsourcing-service">
+                                  Call center outsourcing
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Ecommerce outsourcing</a>
+                                <NavLink to="/ecommerce-outsourcing-services">
+                                  Ecommerce outsourcing
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">
+                                <NavLink to="/performance-compliance-management">
                                   Performance & Compliance management
-                                </a>
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Profesional Services</a>
+                                <NavLink to="/professional-services">
+                                  Profesional Services
+                                </NavLink>
                               </li>
                               <li>
-                                <a href="#">Innovation at EXCELLIS</a>
+                                <NavLink to="/about">
+                                  Innovation at EXCELLIS
+                                </NavLink>
                               </li>
                             </ul>
                           </div>
@@ -219,10 +241,10 @@ const MainServices = ({ activeStatus }) => {
                           <div className="it_servies_list_item">
                             <ul>
                               <li>
-                                <a href="#">Architecture</a>
+                                <a href="javascript:void(0)">Architecture</a>
                               </li>
                               <li>
-                                <a href="#">Mechanical</a>
+                                <a href="javascript:void(0)">Mechanical</a>
                               </li>
                               <li></li>
                               <li></li>

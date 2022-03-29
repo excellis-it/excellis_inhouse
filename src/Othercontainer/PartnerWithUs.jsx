@@ -85,7 +85,7 @@ const PartnerWithUs = ({ activeStatus }) => {
                     assistance, expanded global reach within an incubating
                     environment.
                   </p>
-                  <Link to="/ContactUs" class="collaborate_button">
+                  <Link to="/contact-us" class="collaborate_button">
                     Collaborate Now
                   </Link>
                 </div>

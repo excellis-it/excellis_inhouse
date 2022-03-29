@@ -551,11 +551,8 @@ const MobileApplication = () => {
                 style={{ backgroundImage: `url(${cta_bg})` }}
               >
                 <div className="cta2_content_sec text-left">
-                  <h4 className="mb-4">
-                    Gets the most out of your campaigns, by taking every detail
-                    into consideration with PPC Management Services.
-                  </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <h4 className="mb-4">Want a technically sound mobile app?</h4>
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1644,8 +1641,10 @@ const MobileApplication = () => {
                 style={{ backgroundImage: `url(${cta_bg2})` }}
               >
                 <div className="cta2_content_sec text-left">
-                  <h4 className="mb-4">Want to get a high ROI?</h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <h4 className="mb-4">
+                    Do you wish to acquire all the benefits at best price?{" "}
+                  </h4>
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1671,9 +1670,9 @@ const MobileApplication = () => {
               >
                 <div className="cta2_content_sec text-center w-100">
                   <h4 className="mb-4">
-                    Grow your business with PPC campaign management
+                    Allow us to lift the technical burden off your shoulders.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>

@@ -359,7 +359,7 @@ const PayPerClick = () => {
                     Gets the most out of your campaigns, by taking every detail
                     into consideration with PPC Management Services.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className="light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1445,7 +1445,7 @@ const PayPerClick = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">Want to get a high ROI?</h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1604,7 +1604,7 @@ const PayPerClick = () => {
                   <h4 className="mb-4">
                     Grow your business with PPC campaign management
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>

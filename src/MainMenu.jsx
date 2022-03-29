@@ -178,7 +178,7 @@ const MainMenu = () => {
                     <h4>Business Enquiry</h4>
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="tel:(+91)8617724646">
                           <img src="https://www.excellisit.com/img/india.png" />
                           <i class="las la-phone-volume"></i>(+91) 861 772 4646{" "}
                         </a>
@@ -214,7 +214,7 @@ const MainMenu = () => {
                     <FaLinkedin />
                   </a>
                   <a
-                    href="https://www.instagram.com/accounts/login/"
+                    href="https://www.instagram.com/excellis.it/"
                     target="_blank"
                   >
                     <FaInstagram />

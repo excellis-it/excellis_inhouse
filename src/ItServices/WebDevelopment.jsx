@@ -402,10 +402,10 @@ const WebDevelopment = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">
-                    Looking for the best website development service provider in
-                    Kolkata, India?
+                    To transform the way the rest of the world sees you on the
+                    internet!
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className="light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1450,10 +1450,9 @@ const WebDevelopment = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">
-                    Want a website that has a quick loading time and looks in
-                    line with your brand?
+                    For One Stop Web Solution Service Provider.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1479,9 +1478,10 @@ const WebDevelopment = () => {
               >
                 <div className="cta2_content_sec text-center w-100">
                   <h4 className="mb-4">
-                    Grow your business with PPC campaign management
+                    Whatever may be your requirement - we have a solution for
+                    you.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>

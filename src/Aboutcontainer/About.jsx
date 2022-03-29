@@ -366,9 +366,9 @@ const About = ({ activeStatus }) => {
                           structure, that has all the information as well as the
                           contact points for all users.
                         </p>
-                        <a href="" class="view_all">
+                        {/* <a href="" class="view_all">
                           View All
-                        </a>
+                        </a> */}
                       </div>
                       <div className="single_project">
                         <h2>Nadax Media</h2>
@@ -379,9 +379,9 @@ const About = ({ activeStatus }) => {
                           The result was a fast, easy to navigate, and quick
                           responsive website.
                         </p>
-                        <a href="" class="view_all">
+                        {/* <a href="" class="view_all">
                           View All
-                        </a>
+                        </a> */}
                       </div>
                       <div className="single_project">
                         <h2>Flightmantra</h2>
@@ -396,9 +396,9 @@ const About = ({ activeStatus }) => {
                           information that they are looking for and also being
                           fully engaged.
                         </p>
-                        <a href="" class="view_all">
+                        {/* <a href="" class="view_all">
                           View All
-                        </a>
+                        </a> */}
                       </div>
                     </Slider>
                   </div>
