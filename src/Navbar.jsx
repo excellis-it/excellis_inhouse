@@ -48,7 +48,7 @@ const Navbar = ({ activeStatus }) => {
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/accounts/login/">
+            <a href="https://www.instagram.com/excellis.it/">
               <FaInstagram />
             </a>
           </li>
@@ -95,9 +95,9 @@ const Navbar = ({ activeStatus }) => {
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+918617724646">
-                      <img src={usamap} className="mr-2" alt="usa flag" /> (+91)
-                      861 772 4646
+                    <a href="tel:1(518)660-0841">
+                      <img src={usamap} className="mr-2" alt="usa flag" />1
+                      (518) 660-0841
                     </a>
                   </li>
 

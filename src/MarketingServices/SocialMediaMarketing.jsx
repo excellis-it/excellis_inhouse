@@ -342,10 +342,11 @@ const SocialMediaMarketing = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">
-                    WE OFFER THE BEST SMM SERVICES TO TAKE YOUR BUSINESS AHEAD
+                    We offer the best Social Media services to take your
+                    business ahead
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
-                    Contact Us
+                  <Link className="light-btn" to="/contact-us">
+                    Talk to Us
                   </Link>
                 </div>
               </div>
@@ -1439,7 +1440,7 @@ const SocialMediaMarketing = () => {
                     Want to expand your online reach with social media
                     marketing?
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1599,7 +1600,7 @@ const SocialMediaMarketing = () => {
                     Know about the complete spectrum of SMM services provided by
                     us?
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>

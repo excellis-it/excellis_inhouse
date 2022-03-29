@@ -322,7 +322,7 @@ const MobileApplication = () => {
               </p>
             </div>
             <NavLink
-              to="/contactUs"
+              to="/contact-us"
               className="dark-btn2"
               data-aos="fade-down"
               data-aos-duration="1000"

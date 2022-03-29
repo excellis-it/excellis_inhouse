@@ -292,7 +292,7 @@ const InnovationatExcellis = () => {
             <div class="u-Center white_text">
               <p>Start your data transformation now.</p>
             </div>
-            <NavLink to="/contactUs" className="co-Button">
+            <NavLink to="/contact-us" className="co-Button">
               <span>Contact us</span>
               <i class="ph-arrow-right"></i>
             </NavLink>

@@ -306,7 +306,7 @@ const QaAndTesting = () => {
                     Looking for the best website development service provider in
                     Kolkata, India?
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className="light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1200,7 +1200,7 @@ const QaAndTesting = () => {
                     Want a website that has a quick loading time and looks in
                     line with your brand?
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1228,7 +1228,7 @@ const QaAndTesting = () => {
                   <h4 className="mb-4">
                     Grow your business with PPC campaign management
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>

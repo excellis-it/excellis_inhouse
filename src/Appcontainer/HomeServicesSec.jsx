@@ -106,9 +106,8 @@ const HomeServicesSec = () => {
                                 className="w-40"
                               >
                                 <div className="single_services">
-                                  <Link to="/WebDevelopment" className="">
+                                  <Link to="/web-development" className="">
                                     <div className="services_icon development_icon"></div>
-
                                     <h4>Web Development</h4>
                                     <p>
                                       <Scrollbars
@@ -136,30 +135,33 @@ const HomeServicesSec = () => {
                                 className="w-60"
                               >
                                 <div className="single_services d-flex p-0">
-                                  <div className="singel_img_serv">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/ui-ux.jpg?alt=media&token=0aaee418-aa51-4409-8df8-95a013231316" />
-                                  </div>
-                                  <div className="single_img_services">
-                                    <div className="services_icon desigining_icon"></div>
-                                    <h4>UI/UX Design</h4>
-                                    <p>
-                                      <Scrollbars
-                                        style={{ height: 70 }}
-                                        autoHide
-                                        autoHideTimeout={1000}
-                                        autoHideDuration={200}
-                                      >
-                                        Our skilled UI/UX designers are talented
-                                        weavers who create business-driven
-                                        website as well as mobile app designs to
-                                        meet client needs. At Excellis IT our
-                                        main goal is to develop a user centric
-                                        web and mobile app design that would
-                                        provide the user best in class user
-                                        experience.
-                                      </Scrollbars>
-                                    </p>
-                                  </div>
+                                  <Link to="/ui-ux-design" className="">
+                                    <div className="singel_img_serv">
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/ui-ux.jpg?alt=media&token=0aaee418-aa51-4409-8df8-95a013231316" />
+                                    </div>
+                                    <div className="single_img_services">
+                                      <div className="services_icon desigining_icon"></div>
+                                      <h4>UI/UX Design</h4>
+                                      <p>
+                                        <Scrollbars
+                                          style={{ height: 70 }}
+                                          autoHide
+                                          autoHideTimeout={1000}
+                                          autoHideDuration={200}
+                                        >
+                                          Our skilled UI/UX designers are
+                                          talented weavers who create
+                                          business-driven website as well as
+                                          mobile app designs to meet client
+                                          needs. At Excellis IT our main goal is
+                                          to develop a user centric web and
+                                          mobile app design that would provide
+                                          the user best in class user
+                                          experience.
+                                        </Scrollbars>
+                                      </p>
+                                    </div>
+                                  </Link>
                                 </div>
                               </Animated>
                             </div>
@@ -171,7 +173,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={300}
                                 className="w-60"
                               >
-                                <Link to="/UiUxDesign" className="">
+                                <Link to="/ui-ux-design" className="">
                                   <div className="single_services d-flex p-0 min-h-220">
                                     <div className="singel_img_serv">
                                       <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/web-design.jpg?alt=media&token=44917a2f-e71e-4236-a8b9-c235182dcef3" />
@@ -205,7 +207,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={400}
                                 className="w-40"
                               >
-                                <Link to="/mobileApplication" className="">
+                                <Link to="/mobile-app-development" className="">
                                   <div className="single_services min-h-220">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Mobile Application</h4>
@@ -246,7 +248,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={500}
                                 className="w-40"
                               >
-                                <Link to="/softwareDevelopment" className="">
+                                <Link to="/software-development" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Software Development</h4>
@@ -273,7 +275,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={600}
                                 className="w-60"
                               >
-                                <Link to="/QaAndTesting" className="">
+                                <Link to="/QA-testing" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>QA & Testing</h4>
@@ -320,9 +322,11 @@ const HomeServicesSec = () => {
                                 className="w-40"
                               >
                                 <div className="single_services">
-                                  <Link to="/WebDevelopment" className="">
+                                  <Link
+                                    to="/search-engine-optimization"
+                                    className=""
+                                  >
                                     <div className="services_icon development_icon"></div>
-
                                     <h4>Search Engine Optimization</h4>
                                     <p>
                                       <Scrollbars
@@ -355,26 +359,31 @@ const HomeServicesSec = () => {
                                 className="w-60"
                               >
                                 <div className="single_services d-flex p-0">
-                                  <div className="singel_img_serv">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/social-media-marketing.jpg?alt=media&token=9c32ded7-059d-44d1-bbdc-2317ae1c63e5" />
-                                  </div>
-                                  <div className="single_img_services">
-                                    <div className="services_icon desigining_icon"></div>
-                                    <h4>Social Media Marketing</h4>
-                                    <p>
-                                      <Scrollbars
-                                        style={{ height: 70 }}
-                                        autoHide
-                                        autoHideTimeout={1000}
-                                        autoHideDuration={200}
-                                      >
-                                        Excellis IT, is a leading social media
-                                        marketing and optimization company that
-                                        extends reliable and comprehensive
-                                        services to businesses.
-                                      </Scrollbars>
-                                    </p>
-                                  </div>
+                                  <Link
+                                    to="/social-media-marketing"
+                                    className=""
+                                  >
+                                    <div className="singel_img_serv">
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/social-media-marketing.jpg?alt=media&token=9c32ded7-059d-44d1-bbdc-2317ae1c63e5" />
+                                    </div>
+                                    <div className="single_img_services">
+                                      <div className="services_icon desigining_icon"></div>
+                                      <h4>Social Media Marketing</h4>
+                                      <p>
+                                        <Scrollbars
+                                          style={{ height: 70 }}
+                                          autoHide
+                                          autoHideTimeout={1000}
+                                          autoHideDuration={200}
+                                        >
+                                          Excellis IT, is a leading social media
+                                          marketing and optimization company
+                                          that extends reliable and
+                                          comprehensive services to businesses.
+                                        </Scrollbars>
+                                      </p>
+                                    </div>
+                                  </Link>
                                 </div>
                               </Animated>
                             </div>
@@ -386,7 +395,10 @@ const HomeServicesSec = () => {
                                 animationInDelay={300}
                                 className="w-60"
                               >
-                                <Link to="/UiUxDesign" className="">
+                                <Link
+                                  to="/search-engine-optimization"
+                                  className=""
+                                >
                                   <div className="single_services d-flex p-0 min-h-220">
                                     <div className="singel_img_serv">
                                       <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/cro.jpg?alt=media&token=82186b79-0044-49e1-8b54-2c9771751b49" />
@@ -422,7 +434,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={400}
                                 className="w-40"
                               >
-                                <Link to="/mobileApplication" className="">
+                                <Link to="/content-marketing" className="">
                                   <div className="single_services min-h-220">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Content Marketing</h4>
@@ -453,7 +465,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={500}
                                 className="w-40"
                               >
-                                <Link to="/softwareDevelopment" className="">
+                                <Link to="/pay-per-click" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Pay Per Click</h4>
@@ -480,7 +492,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={600}
                                 className="w-60"
                               >
-                                <Link to="/QaAndTesting" className="">
+                                <Link to="/email-marketing" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Email Marketing</h4>
@@ -525,7 +537,10 @@ const HomeServicesSec = () => {
                                 className="w-40"
                               >
                                 <div className="single_services">
-                                  <Link to="/WebDevelopment" className="">
+                                  <Link
+                                    to="/call-center-outsourcing-service"
+                                    className=""
+                                  >
                                     <div className="services_icon development_icon"></div>
 
                                     <h4>Call Center Outsource Services</h4>
@@ -554,25 +569,31 @@ const HomeServicesSec = () => {
                                 className="w-60"
                               >
                                 <div className="single_services d-flex p-0">
-                                  <div className="singel_img_serv">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/Back-Office-Process-Outsourcing.jpg?alt=media&token=2d82bf42-75ed-4bd2-a767-5c80f6ceb30d" />
-                                  </div>
-                                  <div className="single_img_services">
-                                    <div className="services_icon desigining_icon"></div>
-                                    <h4>Back-Office Process Outsourcing</h4>
-                                    <p>
-                                      <Scrollbars
-                                        style={{ height: 70 }}
-                                        autoHide
-                                        autoHideTimeout={1000}
-                                        autoHideDuration={200}
-                                      >
-                                        Our back-office process outsourcing
-                                        services help the business to grow and
-                                        move on to a bigger and better venture.
-                                      </Scrollbars>
-                                    </p>
-                                  </div>
+                                  <Link
+                                    to="/back-office-process-outsourcing-services"
+                                    className=""
+                                  >
+                                    <div className="singel_img_serv">
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/Back-Office-Process-Outsourcing.jpg?alt=media&token=2d82bf42-75ed-4bd2-a767-5c80f6ceb30d" />
+                                    </div>
+                                    <div className="single_img_services">
+                                      <div className="services_icon desigining_icon"></div>
+                                      <h4>Back-Office Process Outsourcing</h4>
+                                      <p>
+                                        <Scrollbars
+                                          style={{ height: 70 }}
+                                          autoHide
+                                          autoHideTimeout={1000}
+                                          autoHideDuration={200}
+                                        >
+                                          Our back-office process outsourcing
+                                          services help the business to grow and
+                                          move on to a bigger and better
+                                          venture.
+                                        </Scrollbars>
+                                      </p>
+                                    </div>
+                                  </Link>
                                 </div>
                               </Animated>
                             </div>
@@ -584,7 +605,10 @@ const HomeServicesSec = () => {
                                 animationInDelay={300}
                                 className="w-60"
                               >
-                                <Link to="/UiUxDesign" className="">
+                                <Link
+                                  to="/performance-compliance-management"
+                                  className=""
+                                >
                                   <div className="single_services d-flex p-0 min-h-220">
                                     <div className="singel_img_serv">
                                       <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/Performance-%26-Compliance-Management.jpg?alt=media&token=415d8bc5-dd4c-4b4e-ab86-19293db903d9" />
@@ -620,7 +644,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={400}
                                 className="w-40"
                               >
-                                <Link to="/mobileApplication" className="">
+                                <Link to="/professional-services" className="">
                                   <div className="single_services min-h-220">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Professional Services</h4>
@@ -649,7 +673,10 @@ const HomeServicesSec = () => {
                                 animationInDelay={500}
                                 className="w-40"
                               >
-                                <Link to="/softwareDevelopment" className="">
+                                <Link
+                                  to="/ecommerce-outsourcing-services"
+                                  className=""
+                                >
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>E-Commerce Outsourcing Services</h4>
@@ -677,7 +704,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={600}
                                 className="w-60"
                               >
-                                <Link to="/QaAndTesting" className="">
+                                <Link to="/about" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Innovation at Excellis It</h4>
@@ -718,26 +745,24 @@ const HomeServicesSec = () => {
                               isVisible={true}
                               animationInDelay={100}
                             >
-                              <Link to="/" className="">
-                                <div className="services_row">
-                                  <div className="single_services d-flex p-0">
-                                    <div className="singel_img_serv">
-                                      <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/architechture.jpg?alt=media&token=fa2e35be-9234-47fb-8c47-ac13c3bad19d" />
-                                    </div>
-                                    <div className="single_img_services">
-                                      <h4>Architecture</h4>
-                                      <p>
-                                        Excellis IT has a team of skilled
-                                        architects who offers a plethora of
-                                        Architectural BIM services which
-                                        includes conversion of design drawings
-                                        to accurate construction documents and
-                                        3D models with parametric families.
-                                      </p>
-                                    </div>
+                              <div className="services_row">
+                                <div className="single_services d-flex p-0">
+                                  <div className="singel_img_serv">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/architechture.jpg?alt=media&token=fa2e35be-9234-47fb-8c47-ac13c3bad19d" />
+                                  </div>
+                                  <div className="single_img_services">
+                                    <h4>Architecture</h4>
+                                    <p>
+                                      Excellis IT has a team of skilled
+                                      architects who offers a plethora of
+                                      Architectural BIM services which includes
+                                      conversion of design drawings to accurate
+                                      construction documents and 3D models with
+                                      parametric families.
+                                    </p>
                                   </div>
                                 </div>
-                              </Link>
+                              </div>
                             </Animated>
                             <Animated
                               animationIn="fadeInUp"
@@ -745,27 +770,25 @@ const HomeServicesSec = () => {
                               isVisible={true}
                               animationInDelay={200}
                             >
-                              <Link to="/" className="">
-                                <div className="services_row">
-                                  <div className="single_services d-flex p-0">
-                                    <div className="singel_img_serv">
-                                      <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/mechanical.jpg?alt=media&token=298e7dde-8744-408f-9050-f112603cd8b6" />
-                                    </div>
-                                    <div className="single_img_services">
-                                      <h4>Mechanical</h4>
-                                      <p>
-                                        A team of highly experienced Mechanical
-                                        Modelers at Excellis IT provides
-                                        mechanical engineers, product designers
-                                        & developers precise Mechanical 3D
-                                        modelling services which aims at
-                                        improving productivity and efficiency of
-                                        the manufacturing process.
-                                      </p>
-                                    </div>
+                              <div className="services_row">
+                                <div className="single_services d-flex p-0">
+                                  <div className="singel_img_serv">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/mechanical.jpg?alt=media&token=298e7dde-8744-408f-9050-f112603cd8b6" />
+                                  </div>
+                                  <div className="single_img_services">
+                                    <h4>Mechanical</h4>
+                                    <p>
+                                      A team of highly experienced Mechanical
+                                      Modelers at Excellis IT provides
+                                      mechanical engineers, product designers &
+                                      developers precise Mechanical 3D modelling
+                                      services which aims at improving
+                                      productivity and efficiency of the
+                                      manufacturing process.
+                                    </p>
                                   </div>
                                 </div>
-                              </Link>
+                              </div>
                             </Animated>
                           </div>
                         </div>

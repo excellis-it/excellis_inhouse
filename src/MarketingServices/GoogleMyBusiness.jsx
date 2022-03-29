@@ -306,10 +306,9 @@ const GoogleMyBusiness = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">
-                    Gets the most out of your campaigns, by taking every detail
-                    into consideration with PPC Management Services.
+                    Expand your digital presence with GMB.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className="light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1242,8 +1241,10 @@ const GoogleMyBusiness = () => {
                 style={{ backgroundImage: `url(${cta_bg2})` }}
               >
                 <div className="cta2_content_sec text-left">
-                  <h4 className="mb-4">Want to get a high ROI?</h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <h4 className="mb-4">
+                    Wanna get a prominent presence on Google?{" "}
+                  </h4>
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1269,9 +1270,9 @@ const GoogleMyBusiness = () => {
               >
                 <div className="cta2_content_sec text-center w-100">
                   <h4 className="mb-4">
-                    Grow your business with PPC campaign management
+                    Get your business Google recognition.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>

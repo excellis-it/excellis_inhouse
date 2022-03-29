@@ -321,10 +321,9 @@ const UiUxDesign = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">
-                    Gets the most out of your campaigns, by taking every detail
-                    into consideration with PPC Management Services.
+                    To get better experience and unique website design
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className="light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1475,8 +1474,11 @@ const UiUxDesign = () => {
                 style={{ backgroundImage: `url(${cta_bg2})` }}
               >
                 <div className="cta2_content_sec text-left">
-                  <h4 className="mb-4">Want to get a high ROI?</h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <h4 className="mb-4">
+                    Do you have a unique idea? Let's work together to create
+                    greatness!
+                  </h4>
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1502,9 +1504,10 @@ const UiUxDesign = () => {
               >
                 <div className="cta2_content_sec text-center w-100">
                   <h4 className="mb-4">
-                    Grow your business with PPC campaign management
+                    Our UI UX Design Services may completely change the way you
+                    do business!
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>

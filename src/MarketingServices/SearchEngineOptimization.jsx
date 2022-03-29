@@ -381,7 +381,7 @@ const SearchEngineOptimization = () => {
                   <h4 className="mb-4">
                     Do you want your website to rank no. 1 on Google?
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className="light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1807,7 +1807,7 @@ const SearchEngineOptimization = () => {
                   <h4 className="mb-4">
                     Get your page optimized by the best SEO service provider.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1967,7 +1967,7 @@ const SearchEngineOptimization = () => {
                     Sort out your digital marketing needs with the best SEO
                     provider in town.{" "}
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>

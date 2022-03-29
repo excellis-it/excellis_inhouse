@@ -308,10 +308,10 @@ const BackOfficeProcessOutsourcing = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">
-                    Gets the most out of your campaigns, by taking every detail
-                    into consideration with PPC Management Services.
+                    Share your requirement and our BPO team would happily solve
+                    it.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1267,8 +1267,10 @@ const BackOfficeProcessOutsourcing = () => {
                 style={{ backgroundImage: `url(${cta_bg2})` }}
               >
                 <div className="cta2_content_sec text-left">
-                  <h4 className="mb-4">Want to get a high ROI?</h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <h4 className="mb-4">
+                    We assemble a specialized REMOTE TEAM of affordable STARS.{" "}
+                  </h4>
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
@@ -1294,9 +1296,10 @@ const BackOfficeProcessOutsourcing = () => {
               >
                 <div className="cta2_content_sec text-center w-100">
                   <h4 className="mb-4">
-                    Grow your business with PPC campaign management
+                    Excellis IT is a worldwide service provider dedicated to
+                    providing outstanding customer service.
                   </h4>
-                  <Link className=" light-btn" to="/ContactUs">
+                  <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
                 </div>
