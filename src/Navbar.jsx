@@ -120,8 +120,8 @@ const Navbar = ({ activeStatus }) => {
               <nav class="navbar navbar-expand-lg pr-0">
                 <div className="logo">
                   <Link to="/">
-                    <img className="header_logo" src={logo} alt="" />
-                    <img className="header_icon" src={logoicon} alt="" />
+                    <img className="" src={logo} alt="" />
+                    {/* <img className="header_icon" src={logoicon} alt="" /> */}
                   </Link>
                 </div>
                 <button className="menu_open" onClick={() => setShow(true)}>

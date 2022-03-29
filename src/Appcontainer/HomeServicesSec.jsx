@@ -135,11 +135,11 @@ const HomeServicesSec = () => {
                                 className="w-60"
                               >
                                 <div className="single_services d-flex p-0">
-                                  <Link to="/ui-ux-design" className="">
-                                    <div className="singel_img_serv">
-                                      <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/ui-ux.jpg?alt=media&token=0aaee418-aa51-4409-8df8-95a013231316" />
-                                    </div>
-                                    <div className="single_img_services">
+                                  <div className="singel_img_serv">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/ui-ux.jpg?alt=media&token=0aaee418-aa51-4409-8df8-95a013231316" />
+                                  </div>
+                                  <div className="single_img_services">
+                                    <Link to="/ui-ux-design" className="">
                                       <div className="services_icon desigining_icon"></div>
                                       <h4>UI/UX Design</h4>
                                       <p>
@@ -160,8 +160,8 @@ const HomeServicesSec = () => {
                                           experience.
                                         </Scrollbars>
                                       </p>
-                                    </div>
-                                  </Link>
+                                    </Link>
+                                  </div>
                                 </div>
                               </Animated>
                             </div>
@@ -359,14 +359,14 @@ const HomeServicesSec = () => {
                                 className="w-60"
                               >
                                 <div className="single_services d-flex p-0">
-                                  <Link
-                                    to="/social-media-marketing"
-                                    className=""
-                                  >
-                                    <div className="singel_img_serv">
-                                      <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/social-media-marketing.jpg?alt=media&token=9c32ded7-059d-44d1-bbdc-2317ae1c63e5" />
-                                    </div>
-                                    <div className="single_img_services">
+                                  <div className="singel_img_serv">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/social-media-marketing.jpg?alt=media&token=9c32ded7-059d-44d1-bbdc-2317ae1c63e5" />
+                                  </div>
+                                  <div className="single_img_services">
+                                    <Link
+                                      to="/social-media-marketing"
+                                      className=""
+                                    >
                                       <div className="services_icon desigining_icon"></div>
                                       <h4>Social Media Marketing</h4>
                                       <p>
@@ -382,8 +382,8 @@ const HomeServicesSec = () => {
                                           comprehensive services to businesses.
                                         </Scrollbars>
                                       </p>
-                                    </div>
-                                  </Link>
+                                    </Link>
+                                  </div>
                                 </div>
                               </Animated>
                             </div>
@@ -569,14 +569,14 @@ const HomeServicesSec = () => {
                                 className="w-60"
                               >
                                 <div className="single_services d-flex p-0">
-                                  <Link
-                                    to="/back-office-process-outsourcing-services"
-                                    className=""
-                                  >
-                                    <div className="singel_img_serv">
-                                      <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/Back-Office-Process-Outsourcing.jpg?alt=media&token=2d82bf42-75ed-4bd2-a767-5c80f6ceb30d" />
-                                    </div>
-                                    <div className="single_img_services">
+                                  <div className="singel_img_serv">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/Back-Office-Process-Outsourcing.jpg?alt=media&token=2d82bf42-75ed-4bd2-a767-5c80f6ceb30d" />
+                                  </div>
+                                  <div className="single_img_services">
+                                    <Link
+                                      to="/back-office-process-outsourcing-services"
+                                      className=""
+                                    >
                                       <div className="services_icon desigining_icon"></div>
                                       <h4>Back-Office Process Outsourcing</h4>
                                       <p>
@@ -592,8 +592,8 @@ const HomeServicesSec = () => {
                                           venture.
                                         </Scrollbars>
                                       </p>
-                                    </div>
-                                  </Link>
+                                    </Link>
+                                  </div>
                                 </div>
                               </Animated>
                             </div>

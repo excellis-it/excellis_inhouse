@@ -30,12 +30,12 @@ const CompanyAddress = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="tel:+44 115 794 0283">
                       <FaPhoneAlt /> +44 115 794 0283
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="mailto:info@excellisit.com">
                       <FaEnvelope /> info@excellisit.com
                     </a>
                   </li>
@@ -55,12 +55,12 @@ const CompanyAddress = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="tel:1 (518) 660-0841">
                       <FaPhoneAlt /> 1 (518) 660-0841
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="mailto:info@excellisit.com">
                       <FaEnvelope /> info@excellisit.com
                     </a>
                   </li>
@@ -81,12 +81,12 @@ const CompanyAddress = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="tel:(+91) 861 772 4646">
                       <FaPhoneAlt /> (+91) 861 772 4646
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="mailto:info@excellisit.com">
                       <FaEnvelope /> info@excellisit.com
                     </a>
                   </li>
