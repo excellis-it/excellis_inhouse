@@ -55,57 +55,72 @@ function App() {
     <div>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/OurServices" component={MainServices} />
-        <Route path="/process" component={Process} />
-        <Route path="/Ourblogs" component={BlogPage} />
-        <Route path="/blogDetail/:Title" exact component={BlogDetails} />
-        <Route path="/JobRole/:id" exact component={JobRole} />
-        <Route path="/privacy-policy" component={PrivacyPolicy} />
-        <Route path="/terms-and-condition" component={TermConditions} />
-        <Route path="/contactus" component={ContactUs} />
-        <Route path="/itServices" component={ItServices} />
-        <Route path="/mobile-application" component={MobileApplication} />
-        <Route path="/software-development" component={SoftwareDevelopment} />
-        <Route path="/ui-ux-design" component={UiUxDesign} />
-        <Route path="/web-development" component={WebDevelopment} />
-        <Route path="/partner-with-us" component={PartnerWithUs} />
-        <Route path="/QA-testing" component={QaAndTesting} />
-        <Route path="/Portfolio" component={Portfolio} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/OurServices" component={MainServices} />
+        <Route exact path="/process" component={Process} />
+        <Route exact path="/Ourblogs" component={BlogPage} />
+        <Route exact path="/blogDetail/:Title" component={BlogDetails} />
+        <Route exact path="/JobRole/:id" component={JobRole} />
+        <Route exact path="/privacy-policy" component={PrivacyPolicy} />
+        <Route exact path="/terms-and-condition" component={TermConditions} />
+        <Route exact path="/contactus" component={ContactUs} />
+        <Route exact path="/itServices" component={ItServices} />
+        <Route exact path="/mobile-application" component={MobileApplication} />
         <Route
+          exact
+          path="/software-development"
+          component={SoftwareDevelopment}
+        />
+        <Route exact path="/ui-ux-design" component={UiUxDesign} />
+        <Route exact path="/web-development" component={WebDevelopment} />
+        <Route exact path="/partner-with-us" component={PartnerWithUs} />
+        <Route exact path="/QA-testing" component={QaAndTesting} />
+        <Route exact path="/Portfolio" component={Portfolio} />
+        <Route
+          exact
           path="/call-center-outsourcing-service"
           component={CallCenterOutsourcing}
         />
         <Route
+          exact
           path="/ecommerce-outsourcing-services"
           component={EcommerceOutsourcing}
         />
         <Route
+          exact
           path="/performance-compliance-management"
           component={PerformanceCompliancemanagement}
         />
-        <Route path="/professional-services" component={ProfessionalServices} />
         <Route
+          exact
+          path="/professional-services"
+          component={ProfessionalServices}
+        />
+        <Route
+          exact
           path="/search-engine-optimization"
           component={SearchEngineOptimization}
         />
         <Route
+          exact
           path="/social-media-marketing"
           component={SocialMediaMarketing}
         />
-        <Route path="/pay-per-click" component={PayPerClick} />
+        <Route exact path="/pay-per-click" component={PayPerClick} />
         <Route
+          exact
           path="/back-office-process-outsourcing-services"
           component={BackOfficeProcessOutsourcing}
         />
-        <Route path="/email-marketing" component={EmailMarketing} />
-        <Route path="/content-marketing" component={ContentMarketing} />
-        <Route path="/career" component={CareerPage} />
+        <Route exact path="/email-marketing" component={EmailMarketing} />
+        <Route exact path="/content-marketing" component={ContentMarketing} />
+        <Route exact path="/career" component={CareerPage} />
         <Route
+          exact
           path="/google-my-business-optimization"
           component={GoogleMyBusiness}
         />
-        <Route component={Error} />
+        <Route exact component={Error} />
       </Switch>
     </div>
   );
