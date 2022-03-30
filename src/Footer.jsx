@@ -65,7 +65,7 @@ const Footer = () => {
                       <div class="footer-links footer_menu d-flex">
                         <ul>
                           <li>
-                            <Link to="/mobile-application">
+                            <Link to="/mobile-app-development">
                               <FaArrowRight />
                               Mobile Application
                             </Link>
@@ -94,12 +94,12 @@ const Footer = () => {
                               QA and Testing
                             </Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="https://www.excellisit.com/CAD-drawing-services">
                               <FaArrowRight />
                               CAD Services
                             </a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -108,41 +108,41 @@ const Footer = () => {
                       <div class="footer-links footer_menu d-flex">
                         <ul>
                           <li>
-                            <a href="https://www.excellisit.com/back-office-process-outsourcing-services">
+                            <a href="/back-office-process-outsourcing-services">
                               <FaArrowRight />
                               Back office process outsourcing
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.excellisit.com/call-center-outsourcing-service">
+                            <a href="/call-center-outsourcing-service">
                               <FaArrowRight />
                               Call center outsourcing{" "}
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.excellisit.com/ecommerce-outsourcing-services">
+                            <a href="/ecommerce-outsourcing-services">
                               <FaArrowRight />
                               Ecommerce outsourcing
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.excellisit.com/performance-compliance-management">
+                            <a href="/performance-compliance-management">
                               <FaArrowRight />
                               Performance &amp; Compliance
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.excellisit.com/professional-services">
+                            <a href="/professional-services">
                               <FaArrowRight />
                               Profesional Services
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="https://www.excellisit.com/innovation-at-excellis">
                               <FaArrowRight />
                               Innovation at EXCELLIS
                             </a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -198,7 +198,10 @@ const Footer = () => {
                 <div class="row">
                   <div class="col-md-5">
                     <div class="copyright">
-                      <p>© 2022 all rights reserved | v-0.3</p>
+                      <p>
+                        © 2022 all rights reserved |{" "}
+                        <span className="d-none">v-0.3</span>
+                      </p>
                     </div>
                   </div>
                   <div class="col-md-7">
@@ -209,7 +212,7 @@ const Footer = () => {
                         </li>
                         <li>
                           <Link to="/terms-and-condition">
-                            Term and Condition
+                            Terms and Conditions
                           </Link>
                         </li>
                         <li>
