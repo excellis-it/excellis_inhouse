@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
+import OurBlogs from "../Appcontainer/OurBlog";
 import TestimonialSection from "../TestimonialSection";
 import { Animated } from "react-animated-css";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
@@ -19,9 +20,8 @@ import {
   RiNumber5,
   RiNumber6,
 } from "react-icons/ri";
-
 import TechnologyWeUse from "../TechnologyWeUse";
-import ClientSecInner from "../ClientSecInner";
+import IndustriesWeCovered from "../Appcontainer/IndustriesWeCovered";
 const cta_bg =
   "https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fcta_img.jpg?alt=media&token=80dff7e9-4f79-4258-ae00-734d63a84110";
 
@@ -31,10 +31,10 @@ const cta_bg3 =
   "https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/cta_img3.jpg?alt=media&token=ad3e770b-a126-4e64-b1c2-ab61338fcc0e";
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
-const QaAndTesting = () => {
-  const title = "QA and Testing";
+const DigitalMarketing = () => {
+  const title = "Digital Marketing";
   const description =
-    "Excellis IT brings to you the most trustworthy expertise, processes, technologies, and QA testing specialists who deliver high value-added QA & software testing solutions that you can trust.";
+    "“Creating 360-degree digital marketing services that would make your business stand out from your competitors. ”";
 
   var maxData = 3;
   let i = 2;
@@ -112,21 +112,20 @@ const QaAndTesting = () => {
     <div>
       <Helmet>
         <title>
-          Manual, Automated, Performance and Usability Testing Company in
+          Social Media Marketing Company & Social Media Optimization Agency in
           Kolkata, India: Excellis IT
         </title>
         <meta
-          name="title"
-          content="Manual, Automated, Performance and Usability Testing Company in Kolkata, India: Excellis IT"
-        />
-        <meta
           name="description"
-          content="Excellis IT is a leading Manual Testing, Automated Testing, Performance Testing, and Usability Testing Company in Kolkata, India. Hire QA Testing experts in India from Excellis IT. "
+          content="Excellis IT is one of the best advertising agencies providing creative SMO services at an affordable price to Corporate, SME’s, Startups, and Celebrities. Contact us now. "
         />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
-        <link rel="canonical" href="https://www.excellisit.com/qa-testing/" />
+        <link
+          rel="canonical"
+          href="https://www.excellisit.com/social-media-marketing/"
+        />
       </Helmet>
       <Navbar />
       <InnerBanner title={title} description={description} />
@@ -135,29 +134,41 @@ const QaAndTesting = () => {
           <div class="l-ContentColumn container">
             <div class="row align-items-center">
               <div class="col-md-6">
-                <div class="company_intro">
-                  <h1
-                    class="BannerServices__Subheader h1--WithLine"
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                  >
-                    Excellis IT – Best QA and Testing Solutions
+                <div
+                  class="company_intro"
+                  data-aos="fade-down"
+                  data-aos-duration="1500"
+                >
+                  <h1 class="BannerServices__Subheader">
+                    Start Your Digital Journey with Excellis IT
                   </h1>
-                  <p data-aos="fade-down" data-aos-duration="2000">
-                    Companies are rethinking traditional quality assurance and
-                    testing services and procedures as they strive for
-                    perfection in their software applications. They seek
-                    services that guarantee application reliability while
-                    providing an excellent user experience. The goal is to have
-                    software solutions that allow a company to react to changing
-                    industry dynamics. Regardless of the complexity of the
-                    client's needs, our QA & Testing services in Kolkata, India,
-                    are designed to save development costs, accelerate
-                    time-to-market, and reduce technical and business risks. Our
-                    software testing professionals employ a focused strategy to
-                    help clients get more out of their testing efforts when they
-                    improve time to market and increase ROI, whether for
-                    desktop, mobile, or digital transformation apps.
+                  <p>
+                    Online marketing, or digital marketing, is the most
+                    important business tool for businesses today since it allows
+                    them to use the internet's potential to propel their
+                    organization forward. It enables them to improve their
+                    search engine presence, increase website traffic, and engage
+                    consumers to turn them into customers. With most rivals in
+                    the market engaging in a digital strategy, it becomes
+                    critical for the company to stay competitive. Having a solid
+                    internet presence has also become a powerful branding
+                    technique for boosting the organization. To get a
+                    competitive advantage, every organization must use the best
+                    digital marketing services in Kolkata.
+                  </p>
+                  <p>
+                    We are a top digital marketing agency. At Excellis IT, we
+                    provide a wide range of services to help your company
+                    flourish. We assist you in overcoming obstacles and
+                    resolving issues that arise while attempting to expand your
+                    internet presence. We have a team of skilled digital
+                    marketing experts who can assist you with anything you need
+                    to know about online marketing. We offer comprehensive
+                    digital marketing services in Kolkata to ensure that your
+                    business's website goes to the top of search results and
+                    stays there despite market competition. SEO, SMO, SMM, PPC,
+                    ORM, content marketing, and more are all areas in which we
+                    specialize.
                   </p>
                 </div>
               </div>
@@ -168,7 +179,8 @@ const QaAndTesting = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fqa-testing.jpg?alt=media&token=f6c9a8f1-03cf-4cff-98a9-dfe90c9c70bb"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fsocial-media-marketing.jpg?alt=media&token=eb2c47af-3cae-4d36-86b6-5a364e469e4b"
+                    alt="Social Media Marketing"
                     className="img-fluid"
                   />
                 </div>
@@ -200,61 +212,82 @@ const QaAndTesting = () => {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="single_inner_services">
-                        <h4>Automated Testing</h4>
+                        <h4>Social Media Strategy</h4>
                         <Scrollbars style={{ height: 100 }}>
                           <p>
-                            We provide exceptional automation testing services
-                            for various software and application testing
-                            projects as a quality assurance firm.
+                            We provide a result-driven strategy so that your
+                            social media marketing plan is a success. This
+                            starts with understanding your business as well as
+                            its goals so that we could curate a solution that
+                            would be perfect for your brand.
                           </p>
                         </Scrollbars>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="single_inner_services">
-                        <h4>Security Testing</h4>
+                        <h4>Content Marketing</h4>
                         <Scrollbars style={{ height: 100 }}>
                           <p>
-                            Security testing services are concerned with
-                            ensuring that software meets different stated
-                            criteria and standards and meeting end-user security
-                            expectations.
+                            The tonality of your content reflects the tonality
+                            of your brand thus, the content that goes out on
+                            your social pages must be sound and unique as well
+                            as engaging. We also realize its significance and
+                            thus, create content that would engage your
+                            customers with your business and strengthen your
+                            brand.
                           </p>
                         </Scrollbars>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="single_inner_services">
-                        <h4>Performance Testing</h4>
+                        <h4>Social Media Management</h4>
                         <Scrollbars style={{ height: 100 }}>
                           <p>
-                            We identify and address performance and reliability
-                            issues as soon as they arise, ensuring that the
-                            application runs smoothly.
+                            Social media management is an important aspect of
+                            SMM. Excellis IT is one of the leading Social media
+                            marketing agency in Kolkata, India, gives your
+                            business an influential online presence across
+                            platforms like Facebook, Linkedin, Instagram,
+                            Twitter and many more. We also schedule brand
+                            messages along with promoting content for ideal
+                            engagement with our target audience and also
+                            coordinate social alliances so that you could reach
+                            out to your new audience.
                           </p>
                         </Scrollbars>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="single_inner_services">
-                        <h4>Accessibility Testing</h4>
+                        <h4>Promotions And Contests</h4>
                         <Scrollbars style={{ height: 100 }}>
                           <p>
-                            We offer accessibility testing services per Section
-                            508 and WCAG requirements, ensuring that your
-                            software is fully accessible to people with
-                            disabilities.
+                            If you wish to get instant audience engagements to
+                            your social channels then targeted promotions and
+                            contests can help you to infuse new life in your
+                            campaign. Excellis IT designs as well as implements
+                            innovative ideas for promotions, contests, coupons
+                            for new customers, etc. Such promotional ideas
+                            benefit you with high engagement as well as sales
+                            that boost the popularity of your brand.
                           </p>
                         </Scrollbars>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="single_inner_services">
-                        <h4>IT Staff Augmentation Services</h4>
+                        <h4>Monitoring And Reporting</h4>
                         <Scrollbars style={{ height: 100 }}>
                           <p>
-                            Build scalable, secure, and feature-rich software
-                            product solutions with our staff augmentation
+                            Social media marketing agency doesn’t only design
+                            and implement marketing plans. They also monitor the
+                            efficacy of the implemented plan. Our experts at
+                            Excellis IT keep an eye on the performance of the
+                            strategy that they had applied. We also provide
+                            reports to our clients so that they can also see and
+                            evaluate the value they are getting from our
                             services.
                           </p>
                         </Scrollbars>
@@ -262,25 +295,32 @@ const QaAndTesting = () => {
                     </div>
                     <div className="col-md-6">
                       <div className="single_inner_services">
-                        <h4>Mobile Testing</h4>
+                        <h4>Consulting</h4>
                         <Scrollbars style={{ height: 100 }}>
                           <p>
-                            Our mobile compatibility testing ensures that your
-                            software looks and works well on various mobile
-                            platforms.
+                            Apart from all the traditional SMM plans we also
+                            provide consultancy services to our clients. We have
+                            a team of experts who would provide you with the
+                            best consultancy so that you can avail the benefits
+                            of the strategy and make it better.
                           </p>
                         </Scrollbars>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="single_inner_services">
-                        <h4>Usability Testing</h4>
+                        <h4>Influencer Marketing</h4>
                         <Scrollbars style={{ height: 100 }}>
                           <p>
-                            Our web usability testing services assist in
-                            identifying potential issues in software and mobile
-                            apps so that UX issues may be addressed as soon as
-                            possible.
+                            In recent times Influencer Marketing is the most
+                            effective marketing tool for businesses. Social
+                            Media influencers have a pool of loyal followers who
+                            trust their reviews. This can be very beneficial for
+                            businesses as they can easily leverage the power of
+                            these influencer marketers to promote their business
+                            offerings. As a social media marketing agency, we
+                            offer the best influencer marketing services for
+                            your business.
                           </p>
                         </Scrollbars>
                       </div>
@@ -303,11 +343,10 @@ const QaAndTesting = () => {
               >
                 <div className="cta2_content_sec text-left">
                   <h4 className="mb-4">
-                    Looking for the best website development service provider in
-                    Kolkata, India?
+                    Do you want your website to rank no. 1 on Google?
                   </h4>
                   <Link className="light-btn" to="/contact-us">
-                    Contact Us
+                    Talk to Us
                   </Link>
                 </div>
               </div>
@@ -322,7 +361,7 @@ const QaAndTesting = () => {
             <div class="col-md-12 ">
               <div className="big_title">
                 <h2 data-aos="fade-down" data-aos-duration="1500">
-                  <span>Why Hire </span> QA and Testing from us?
+                  <span>Why Hire </span> Digital Marketing from Us
                 </h2>
               </div>
             </div>
@@ -347,7 +386,24 @@ const QaAndTesting = () => {
                       src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fexperience.png?alt=media&token=9713b80a-d008-4073-bea3-c2c2a1c04ccb"
                       alt=""
                     />
-                    Consistent Testing Process
+                    Concentrate
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="pills-why2-tab"
+                    data-toggle="pill"
+                    href="#pills-why2"
+                    role="tab"
+                    aria-controls="pills-why2"
+                    aria-selected="false"
+                  >
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2FAssessableResults.png?alt=media&token=6354087b-41da-481c-ac13-e7fa24fdd80a"
+                      alt=""
+                    />
+                    understanding
                   </a>
                 </li>
                 <li class="nav-item">
@@ -364,7 +420,7 @@ const QaAndTesting = () => {
                       src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fidea.png?alt=media&token=944eb2a5-fcc5-46fa-bcd2-cf145bc86bd3"
                       alt=""
                     />
-                    Service-Quality
+                    Expenditures
                   </a>
                 </li>
                 <li class="nav-item">
@@ -381,7 +437,24 @@ const QaAndTesting = () => {
                       src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Freport.png?alt=media&token=98081286-1f75-48af-a528-48cfe6e1bf29"
                       alt=""
                     />
-                    automated testing tools
+                    measured
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="pills-why5-tab"
+                    data-toggle="pill"
+                    href="#pills-why5"
+                    role="tab"
+                    aria-controls="pills-why5"
+                    aria-selected="false"
+                  >
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsave-money.png?alt=media&token=54fd85ab-1b2d-4776-b87a-f1e81f8617f2"
+                      alt=""
+                    />
+                    Have all the tools
                   </a>
                 </li>
               </ul>
@@ -402,15 +475,39 @@ const QaAndTesting = () => {
                     animationInDelay={10}
                     className="wht_tab_inner"
                   >
-                    <h4>Management of a Consistent Testing Process</h4>
+                    <h4>Concentrate on your company's operations</h4>
                     <p>
-                      There are complete test process management and procedures
-                      with effective testing processes in place from the
-                      beginning of the project.
+                      A digital marketing firm can handle your marketing needs
+                      in the same way that an accountant can handle your
+                      business accounts, allowing you to focus on other elements
+                      of your business.
                     </p>
                   </Animated>
                 </div>
 
+                <div
+                  class="tab-pane fade"
+                  id="pills-why2"
+                  role="tabpanel"
+                  aria-labelledby="pills-why2-tab"
+                >
+                  <Animated
+                    animationIn="fadeInUp"
+                    animationOut="fadeOut"
+                    isVisible={true}
+                    animationInDelay={10}
+                    className="wht_tab_inner"
+                  >
+                    <h4>Thorough understanding of the industry</h4>
+                    <p>
+                      Producing fantastic ideas is not the only part of digital
+                      marketing. That is just a little portion of the pie.
+                      Having the technical abilities and the resources to carry
+                      out the plans and efforts are two more aspects that help
+                      achieve the intended objectives.
+                    </p>
+                  </Animated>
+                </div>
                 <div
                   class="tab-pane fade"
                   id="pills-why3"
@@ -424,10 +521,15 @@ const QaAndTesting = () => {
                     animationInDelay={10}
                     className="wht_tab_inner"
                   >
-                    <h4>Service-Quality</h4>
+                    <h4>Reduce Marketing Expenditures</h4>
                     <p>
-                      Excellis IT has always prioritised total quality,
-                      balancing cost, scope, and schedules for each project.
+                      In-house marketing teams may be expensive to employ these
+                      days. Putting together a team to lead, research, monitor,
+                      create, and evaluate your internet marketing strategy is
+                      expensive and time-consuming. A certified digital
+                      marketing agency in Kolkata, India, may provide all these
+                      services and more at a fraction of the cost (both time and
+                      money) of hiring an in-house staff.
                     </p>
                   </Animated>
                 </div>
@@ -444,13 +546,39 @@ const QaAndTesting = () => {
                     animationInDelay={10}
                     className="wht_tab_inner"
                   >
-                    <h4>
-                      There are several automated testing tools available.
-                    </h4>
+                    <h4>Results that can be measured</h4>
                     <p>
-                      Excellis IT's testing teams have extensive experience with
-                      most of the industry's most widely used automated testing
-                      solutions.
+                      Due to their expertise and areas of experience in digital
+                      marketing can offer you data and reports that provide you
+                      with a realistic picture of the results you're obtaining
+                      from their services. Though digital marketing might appear
+                      ethereal, an experienced internet marketing team should be
+                      able to attach precise, measurable metrics to each
+                      campaign to demonstrate its efficacy.
+                    </p>
+                  </Animated>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-why5"
+                  role="tabpanel"
+                  aria-labelledby="pills-why5-tab"
+                >
+                  <Animated
+                    animationIn="fadeInUp"
+                    animationOut="fadeOut"
+                    isVisible={true}
+                    animationInDelay={10}
+                    className="wht_tab_inner"
+                  >
+                    <h4>Have all the tools</h4>
+                    <p>
+                      With its expertise, knowledge, and required continual
+                      education in internet and digital marketing, a marketing
+                      firm has resources at its disposal that many businesses
+                      are unaware of. Digital marketers have their unique means
+                      of developing successful exposure for their business, just
+                      as they would with specialized equipment for their trade.
                     </p>
                   </Animated>
                 </div>
@@ -509,247 +637,175 @@ const QaAndTesting = () => {
               >
                 <SwiperSlide>
                   <div className="single_expertise text-center">
-                    <h4>Enterprise App Testing</h4>
+                    <h4>SEO </h4>
                     <Scrollbars
-                      style={{ height: 100 }}
+                      style={{ height: 150 }}
                       className="expertise_single_cont"
                     >
                       <p>
-                        Aside from functionality, understanding the performance,
-                        user acceptance, and security of enterprise web/mobile
-                        apps with a big user base using different modules in
-                        real-time.
+                        Get your page optimized to be visible on the 1st page of
+                        google search by the leading SEO company in Kolkata,
+                        India.
                       </p>
                     </Scrollbars>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="single_expertise text-center">
-                    <h4>Functional Testing</h4>
+                    <h4>Google AdWords & PPC</h4>
                     <Scrollbars
-                      style={{ height: 100 }}
+                      style={{ height: 150 }}
                       className="expertise_single_cont"
                     >
                       <p>
-                        This kind of testing is commonly used to improve the
-                        quality of software. Various testing activities are used
-                        in the functional testing analysis process to ensure the
-                        quality of each component's code.
+                        Get more leads and audiences with the help of AdWords
+                        and PPC marketing.
                       </p>
                     </Scrollbars>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="single_expertise text-center">
-                    <h4>Software Performance Testing</h4>
+                    <h4>Social Media </h4>
                     <Scrollbars
-                      style={{ height: 100 }}
+                      style={{ height: 150 }}
                       className="expertise_single_cont"
                     >
                       <p>
-                        Our performance testing services aid in identifying
-                        software bottlenecks that affect the quality and calibre
-                        of your web/mobile app, ensuring that it can sustain
-                        heavy loads.
+                        We provide a social media marketing plan that would
+                        maximize and broaden your audience.
                       </p>
                     </Scrollbars>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="single_expertise text-center">
-                    <h4>Responsive Testing</h4>
+                    <h4>Social Media Advertising </h4>
                     <Scrollbars
-                      style={{ height: 100 }}
+                      style={{ height: 150 }}
                       className="expertise_single_cont"
                     >
                       <p>
-                        Increased clients benefit from responsive web design,
-                        which allows them to see content on various devices.
-                        Responsive testing services are used to assess the
-                        responsiveness of any web/mobile app.
+                        Advertise more about your brand on your social media
+                        channels and get new leads.
                       </p>
                     </Scrollbars>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="single_expertise text-center">
-                    <h4>Platform Compatibility Testing</h4>
+                    <h4>Brand Promotion</h4>
                     <Scrollbars
-                      style={{ height: 100 }}
+                      style={{ height: 150 }}
                       className="expertise_single_cont"
                     >
                       <p>
-                        Technological advancements in the online and mobile
-                        sectors have created a nightmare for software or app
-                        development teams. Throughout this testing, our
-                        professionals check the web/mobile app's desired
-                        performance on each platform.
+                        Promote your brand online to gain more audience and
+                        traffic to your website.
                       </p>
                     </Scrollbars>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="single_expertise text-center">
-                    <h4>Web/Mobile App Testing</h4>
+                    <h4>Email Marketing & Newsletters </h4>
                     <Scrollbars
-                      style={{ height: 100 }}
+                      style={{ height: 150 }}
                       className="expertise_single_cont"
                     >
                       <p>
-                        After mobile and web development, the most difficult
-                        problem is ensuring that they function properly. As a
-                        result, our web and mobile testing firm concentrate on
-                        quality assurance software testing.
+                        Market your brand through email and newsletter to
+                        attract your target audience.
+                      </p>
+                    </Scrollbars>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_expertise text-center">
+                    <h4>Conversion Rate Optimization (CRO)</h4>
+                    <Scrollbars
+                      style={{ height: 150 }}
+                      className="expertise_single_cont"
+                    >
+                      <p>
+                        Get your CRO done by the best digital marketing company
+                        in Kolkata and increase your conversion rate from
+                        websites and mobile apps.
+                      </p>
+                    </Scrollbars>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_expertise text-center">
+                    <h4>Content Creation </h4>
+                    <Scrollbars
+                      style={{ height: 150 }}
+                      className="expertise_single_cont"
+                    >
+                      <p>
+                        Create content that would attract your target audience
+                        and educate the potential audience about your brand.
+                      </p>
+                    </Scrollbars>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_expertise text-center">
+                    <h4>Influencer Marketing </h4>
+                    <Scrollbars
+                      style={{ height: 150 }}
+                      className="expertise_single_cont"
+                    >
+                      <p>
+                        Get the help of Influencers through us to promote your
+                        brand in a highly effective way.
+                      </p>
+                    </Scrollbars>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_expertise text-center">
+                    <h4>Data Analysis </h4>
+                    <Scrollbars
+                      style={{ height: 150 }}
+                      className="expertise_single_cont"
+                    >
+                      <p>
+                        Analyse the data and adjust the changes that need to be
+                        made to increase the audience.
+                      </p>
+                    </Scrollbars>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_expertise text-center">
+                    <h4>Video Marketing </h4>
+                    <Scrollbars
+                      style={{ height: 150 }}
+                      className="expertise_single_cont"
+                    >
+                      <p>
+                        Videos work best on digital platforms. Thus, opt for
+                        video marketing to gain more audience.
+                      </p>
+                    </Scrollbars>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_expertise text-center">
+                    <h4>Online Reputation Management </h4>
+                    <Scrollbars
+                      style={{ height: 150 }}
+                      className="expertise_single_cont"
+                    >
+                      <p>
+                        Clients trust us with their business as we help them
+                        manage their online reputation effectively.
                       </p>
                     </Scrollbars>
                   </div>
                 </SwiperSlide>
               </Swiper>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="inner_page_industries">
-        <div className="container">
-          <div className="row mb-3">
-            <div className="col-md-12">
-              <div
-                class="main_heading white_text"
-                data-aos="fade-down"
-                data-aos-duration="1000"
-              >
-                <h6>Industries</h6>
-                <h2 class="h2--WithLine">Industries WE served</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-12">
-              <div
-                className="inner_industries_inner"
-                data-aos="fade-down"
-                data-aos-duration="1000"
-              >
-                <Swiper
-                  modules={[Navigation]}
-                  slidesPerView={4}
-                  spaceBetween={0}
-                  navigation
-                  autoplay={{ delay: 300000 }}
-                  className="mySwiper"
-                  breakpoints={{
-                    700: {
-                      spaceBetween: 0,
-                      slidesPerView: 4,
-                    },
-                    500: {
-                      spaceBetween: 100,
-                      slidesPerView: 2,
-                    },
-                    411: {
-                      spaceBetween: 100,
-                      slidesPerView: 2,
-                    },
-                    300: {
-                      spaceBetween: 0,
-                      slidesPerView: 1,
-                    },
-                  }}
-                >
-                  <SwiperSlide>
-                    {" "}
-                    <div className="inner_single_industries">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/industries%2Fhealthcare.jpg?alt=media&token=d826e1e0-a94b-4941-80a8-3422d5bf6dde"
-                        alt=""
-                        className="img-fluid"
-                      />
-                      <div className="inner_single_industries_cont">
-                        <h4>Healthcare </h4>
-                        <p>
-                          We provide software for the healthcare industry that
-                          automates patient management, lab management, test
-                          result processing, and data collecting.
-                        </p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    {" "}
-                    <div className="inner_single_industries">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/industries%2Fmanufacture.jpg?alt=media&token=fdfca7c2-a9cb-4493-ba34-7e1936216675"
-                        alt=""
-                        className="img-fluid"
-                      />
-                      <div className="inner_single_industries_cont">
-                        <h4> Manufacture</h4>
-                        <p>
-                          Implement manufacturing software to assist you in
-                          improving your current operations' efficiency while
-                          lowering your operating expenses.
-                        </p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    {" "}
-                    <div className="inner_single_industries">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/industries%2Ftour.jpg?alt=media&token=24ef4900-5db4-44cd-a440-04d01cf5c797"
-                        alt=""
-                        className="img-fluid"
-                      />
-                      <div className="inner_single_industries_cont">
-                        <h4>Tour & Travel</h4>
-                        <p>
-                          Hire Excellis IT experts with extensive experience
-                          developing online and mobile solutions for the travel
-                          and tourism industry to meet all your unique
-                          requirements.
-                        </p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    {" "}
-                    <div className="inner_single_industries">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/industries%2Fmedia-entertainment.jpg?alt=media&token=19ea18ed-c6e1-4027-b40b-77f1af783358"
-                        alt=""
-                        className="img-fluid"
-                      />
-                      <div className="inner_single_industries_cont">
-                        <h4>Ecommerce And Retail </h4>
-                        <p>
-                          We create retail and e-commerce software that
-                          automates company processes and improves the shopping
-                          experience for customers.
-                        </p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    {" "}
-                    <div className="inner_single_industries">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/industries%2Fmedia-entertainment.jpg?alt=media&token=19ea18ed-c6e1-4027-b40b-77f1af783358"
-                        alt=""
-                        className="img-fluid"
-                      />
-                      <div className="inner_single_industries_cont">
-                        <h4>Logistics</h4>
-                        <p>
-                          We create innovative logistics software to improve
-                          warehouse productivity and streamline the supply
-                          chain.
-                        </p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-              </div>
             </div>
           </div>
         </div>
@@ -812,7 +868,7 @@ const QaAndTesting = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Analysis of the Requirement</h3>
+                        <h3>Establish objectives and goals </h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -820,12 +876,11 @@ const QaAndTesting = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            In future, you will be able to avoid costly problem
-                            fixes and product revisions. Excellis IT engineers
-                            ensure that the specifications are clear,
-                            consistent, full, traceable, and tested. It aids in
-                            the prevention of potential software flaws and the
-                            facilitation of subsequent test design tasks.
+                            clear, quantifiable, and realistic digital marketing
+                            strategy objectives help you identify and measure
+                            what you want to accomplish. Be as specific as
+                            possible while establishing these goals. Include
+                            statistics and periods to act as progress markers.
                           </Scrollbars>
                         </p>
                       </div>
@@ -849,7 +904,7 @@ const QaAndTesting = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Planning and designing tests</h3>
+                        <h3>Define your buyer persona</h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -857,10 +912,12 @@ const QaAndTesting = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            We create a plan, budget, timetable, resource
-                            allocation, and reporting methods. Our QA team
-                            begins designing test cases and checklists as the
-                            scope of work and requirements are defined.
+                            Before you can run a successful digital marketing
+                            campaign, you must first figure out who you are
+                            going for. You can find out what kind of marketing
+                            will perform best for you by using buyer personas to
+                            segment your audience and then developing buyer
+                            personas for each group.
                           </Scrollbars>
                         </p>
                       </div>
@@ -884,7 +941,7 @@ const QaAndTesting = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Test Execution</h3>
+                        <h3>Competitive analysis </h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -892,11 +949,11 @@ const QaAndTesting = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            Our QA engineers enter data on each bug into a
-                            defect tracking system starting at the API and UI
-                            levels. We can start correcting bugs as soon as
-                            feasible if we are coordinated with the development
-                            process.
+                            If you want your marketing efforts to be effective,
+                            you must know who you're competing against. You may
+                            use competitive analysis to determine who your
+                            rivals are, evaluate your market share, and learn
+                            about their marketing strategy.
                           </Scrollbars>
                         </p>
                       </div>
@@ -917,7 +974,7 @@ const QaAndTesting = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Process Optimization</h3>
+                        <h3>A SWOT analysis</h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -925,11 +982,10 @@ const QaAndTesting = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            QA is an iterative, optimization-oriented procedure.
-                            Modern technologies and testing scripts aid
-                            automation of installation and reporting. We may
-                            focus on strategic product goals by automating
-                            repetitive chores.
+                            (strengths, weaknesses, opportunities, and threats)
+                            is the opposite of a competitive landscape study. It
+                            gives you a foundation for looking at your company
+                            in the context of your industry.
                           </Scrollbars>
                         </p>
                       </div>
@@ -950,7 +1006,7 @@ const QaAndTesting = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Automated Tests</h3>
+                        <h3>Calculate Your Budget</h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -958,10 +1014,12 @@ const QaAndTesting = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            Most test scenarios employ automation to save money
-                            and shorten the QA cycle. These speed up releases
-                            while expanding testing coverage and catching more
-                            bugs before they reach the market.
+                            The next stage in developing the finest digital
+                            marketing strategy for your company is to figure out
+                            how much money you have. The budget will determine
+                            how much money you must spend on digital marketing
+                            and direct you to certain channels, strategies, and
+                            methods.
                           </Scrollbars>
                         </p>
                       </div>
@@ -973,16 +1031,16 @@ const QaAndTesting = () => {
                   <SwiperSlide>
                     <div class="width_100">
                       <div class="swiper_heding">
-                        <div className="step__count">5</div>
+                        <div className="step__count">6</div>
                       </div>
                       <div className="process__icon">
                         <img
-                          src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Flink-building.png?alt=media&token=cc348496-202e-4771-b1f2-a3c9ff513d48"
+                          src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fcontent-creation.png?alt=media&token=af22f339-cf2c-45b1-90b6-a03921c7fc42"
                           alt="Requirement Gathering icon"
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Post-production and release stage assistance</h3>
+                        <h3>Define Digital Channels </h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -990,31 +1048,33 @@ const QaAndTesting = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            We check with real users and look for flaws at the
-                            production level once your product has been
-                            released. We work hard to ensure that your product
-                            has an elevated client satisfaction and features.
+                            Define your major digital channels before developing
+                            a content plan. Your channel selection should be
+                            based on your target audience, objectives, and
+                            financial constraints.
                           </Scrollbars>
                         </p>
                       </div>
                       <div class="procc_img">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Flink-building-bg.jpg?alt=media&token=f2e9a022-4da3-49f1-a6c4-a380dce3e953" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fcontent-creation-bg.jpg?alt=media&token=72f9a8e1-d7fc-4649-897c-4c46c1c82d13" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div class="width_100">
                       <div class="swiper_heding">
-                        <div className="step__count">5</div>
+                        <div className="step__count">7</div>
                       </div>
                       <div className="process__icon">
                         <img
-                          src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Flink-building.png?alt=media&token=cc348496-202e-4771-b1f2-a3c9ff513d48"
+                          src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fregular-reporting.png?alt=media&token=0b91355e-a32a-496a-80e8-7a23b694b885"
                           alt="Requirement Gathering icon"
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Reporting</h3>
+                        <h3>
+                          Establish Digital Marketing Tactics And Strategies
+                        </h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -1022,15 +1082,81 @@ const QaAndTesting = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            After each iteration of development, we deliver a
-                            full test report. You may keep track of the
-                            product's quality and release schedule by receiving
-                            regular reports.
+                            Once you have defined your channels, you will need
+                            to develop the digital marketing techniques and
+                            strategies you will employ inside them.
                           </Scrollbars>
                         </p>
                       </div>
                       <div class="procc_img">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Flink-building-bg.jpg?alt=media&token=f2e9a022-4da3-49f1-a6c4-a380dce3e953" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fregular-reporting-bg.jpg?alt=media&token=cdad0edd-c40b-44f6-a29e-6b6223a403c1" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div class="width_100">
+                      <div class="swiper_heding">
+                        <div className="step__count">3</div>
+                      </div>
+                      <div className="process__icon">
+                        <img
+                          src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fkeyword-research.png?alt=media&token=e5b58c50-bdad-4ddb-a140-81028c31f61d"
+                          alt="Requirement Gathering icon"
+                        />
+                      </div>
+                      <div class="prosses_text">
+                        <h3>Make A Marketing Calendar </h3>
+                        <p>
+                          <Scrollbars
+                            style={{ height: 100 }}
+                            autoHide
+                            autoHideTimeout={1000}
+                            autoHideDuration={200}
+                          >
+                            A marketing calendar helps you plan out when your
+                            digital marketing campaigns and activities will be
+                            implemented. It also ensures that you meet deadlines
+                            and carry out the strategy properly throughout the
+                            year.
+                          </Scrollbars>
+                        </p>
+                      </div>
+                      <div class="procc_img">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fkeyword-research-bg.jpg?alt=media&token=3c8446ea-eb56-4b74-964c-5c65338d14c4" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div class="width_100">
+                      <div class="swiper_heding">
+                        <div className="step__count">4</div>
+                      </div>
+                      <div className="process__icon">
+                        <img
+                          src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Famendments.png?alt=media&token=28aec408-64ce-41e4-9e7e-5c7b73e32b2e"
+                          alt="Requirement Gathering icon"
+                        />
+                      </div>
+                      <div class="prosses_text">
+                        <h3>Measure Your Results And KPIS</h3>
+                        <p>
+                          <Scrollbars
+                            style={{ height: 100 }}
+                            autoHide
+                            autoHideTimeout={1000}
+                            autoHideDuration={200}
+                          >
+                            The final stage in developing a digital marketing
+                            strategy and plan is to define metrics and key
+                            performance indicators to track your progress
+                            (KPIs). You should evaluate the results of your
+                            marketing activities to both the baseline and the
+                            original objectives.
+                          </Scrollbars>
+                        </p>
+                      </div>
+                      <div class="procc_img">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Famendments-bg.jpg?alt=media&token=59192512-46c8-4601-9919-24557f75108a" />
                       </div>
                     </div>
                   </SwiperSlide>
@@ -1106,78 +1232,79 @@ const QaAndTesting = () => {
               <div class="contentCircle">
                 <div class="CirItem title-box active CirItem1">
                   <h2 class="title">
-                    <span>Investing less in development</span>
+                    <span>Marketing Experts</span>
                   </h2>
                   <p>
-                    When you test for defects early in the development process,
-                    you lessen the risk of producing troublesome code that
-                    requires an expensive rewrite.
+                    Working with an online marketing agency gives you access to
+                    a full team of strategists, designers, writers, and SEO
+                    experts with diverse skills, knowledge, and experience. This
+                    makes more sense than tackling it yourself or hiring a
+                    single marketer.
                   </p>
                   <i class="fa fa-clock-o"></i>
                 </div>
 
                 <div class="CirItem title-box CirItem2">
                   <h2 class="title">
-                    <span>Time-to-market has been sped up.</span>
+                    <span>It is budget-friendly.</span>
                   </h2>
                   <p>
-                    It may sound contradictory to argue that adding a quality
-                    assurance phase will help you save time on production, but
-                    it is true. When you employ a continuous testing strategy,
-                    you can catch little errors before they turn into big
-                    problems that take time to fix.
+                    According to the poll, organizations who use marketing
+                    agencies to develop their strategy spend less per sales lead
+                    than companies that manage their marketing or utilize
+                    alternative marketing tactics such as outbound marketing.
                   </p>
                   <i class="fa fa-comments"></i>
                 </div>
 
                 <div class="CirItem title-box CirItem3">
                   <h2 class="title">
-                    <span>Customer loyalty is stronger.</span>
+                    <span>Leads that are better qualified</span>
                   </h2>
                   <p>
-                    Whether your users are clients or employees, a broken
-                    software, app, or website will undoubtedly influence their
-                    perception of you. Tools that work flawlessly, on the other
-                    hand, contribute to the positive image of your organisation.
+                    Cold calling is not something a creative agency does;
+                    instead, they focus on chasing your target audience to
+                    produce high-quality, intriguing, and relevant solutions.
                   </p>
                   <i class="fa fa-user"></i>
                 </div>
                 <div class="CirItem title-box CirItem4">
                   <h2 class="title">
-                    <span>Projects Testing Accelerated</span>
+                    <span>Concentrate on your company</span>
                   </h2>
                   <p>
-                    The QA professionals can assist you in easily scaling up
-                    your production. The experienced consultant can assure swift
-                    onboarding and implement effective strategies to deliver
-                    rapid and consistent results with years of expertise.
+                    When you hire a digital marketing service to handle the
+                    heavy lifting relieves you and your team of the stress of
+                    marketing, allowing you to devote more time to your most
+                    important tasks.
                   </p>
                   <i class="fa fa-user"></i>
                 </div>
                 <div class="CirItem title-box CirItem5">
                   <h2 class="title">
-                    <span>Choosing the Right Tool</span>
+                    <span>Obtain a neutral viewpoint on the situation</span>
                   </h2>
                   <p>
-                    As software testing evolves and progresses, new testing
-                    tools emerge to make the job easier. However, selecting the
-                    most effective and high-quality testing instrument is
-                    frequently challenging for testers. Software testing
-                    consulting services can help in such situations.
+                    A reputable firm will provide you with sound, practical, and
+                    honest recommendations on enhancing your marketing and
+                    growing your company. When you want your internal staff to
+                    accomplish this for you, however, it might be more difficult
+                    for them to communicate, leading to conflicts of interest
+                    and arguments. Hiring a consulting firm is the most
+                    effective approach to getting objective, timely advice.
                   </p>
                   <i class="fa fa-user"></i>
                 </div>
                 <div class="CirItem title-box CirItem6">
                   <h2 class="title">
-                    <span>Recommendation that is helpful</span>
+                    <span>Make use of innovative technologies</span>
                   </h2>
                   <p>
-                    Using software testing consulting services can also assist
-                    you in receiving helpful recommendations for improving your
-                    quality process and testing skills. They can provide the
-                    best approaches to improve the overall results of software
-                    testing initiatives because they have extensive experience
-                    in the field.
+                    A professional firm will have innovative tools, software,
+                    and analytical data at its disposal, which will improve your
+                    company's productivity, efficiency, and performance. You
+                    will not have to scour the internet for your software,
+                    either.
                   </p>
                   <i class="fa fa-user"></i>
                 </div>
@@ -1196,10 +1323,7 @@ const QaAndTesting = () => {
                 style={{ backgroundImage: `url(${cta_bg2})` }}
               >
                 <div className="cta2_content_sec text-left">
-                  <h4 className="mb-4">
-                    Want a website that has a quick loading time and looks in
-                    line with your brand?
-                  </h4>
+                  <h4 className="mb-4">Want to get a high ROI?</h4>
                   <Link className=" light-btn" to="/contact-us">
                     Contact Us
                   </Link>
@@ -1214,7 +1338,138 @@ const QaAndTesting = () => {
         <TestimonialSection />
       </section>
 
-      <ClientSecInner />
+      <section className="inner_page_client_section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="big_title">
+                <h2 data-aos="fade-down" data-aos-duration="1500">
+                  <span>Our CLients</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <Swiper
+                modules={[Navigation]}
+                slidesPerView={5}
+                spaceBetween={15}
+                navigation
+                autoplay={{ delay: 3000 }}
+                className="myclient"
+                breakpoints={{
+                  700: {
+                    spaceBetween: 15,
+                    slidesPerView: 5,
+                  },
+                  500: {
+                    spaceBetween: 100,
+                    slidesPerView: 2,
+                  },
+                  411: {
+                    spaceBetween: 100,
+                    slidesPerView: 2,
+                  },
+                  300: {
+                    spaceBetween: 0,
+                    slidesPerView: 1,
+                  },
+                }}
+              >
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient1.jpg?alt=media&token=b9bc7aa2-29b6-48eb-94ef-842493f92fed"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient2.jpg?alt=media&token=c9b685ed-6fee-45c4-90c0-c7f4dcbf0725"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient4.jpg?alt=media&token=f43626ae-3a1e-4cfd-8624-6f11f925b9e3"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient5.jpg?alt=media&token=42cf4061-500a-4c1f-95ae-0985589898f2"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient6.jpg?alt=media&token=108ba7f0-a3e4-42d9-89b4-e8360fe50cfb"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient7.jpg?alt=media&token=20e52744-0b35-4426-9973-c4afe7426967"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient8.jpg?alt=media&token=38c47c8b-8c77-4feb-a1a9-d16585527e52"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient9.jpg?alt=media&token=8476acd8-eeb2-40d3-bcd4-d78aea646fdb"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient10.jpg?alt=media&token=66186813-b268-49a9-9a24-1920851bee68"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient11.jpg?alt=media&token=fba28597-59d6-4911-9bd7-f8f2a6cb0892"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="single_inner_client">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/clients%2Fclient12.jpg?alt=media&token=e06ae285-084b-4fea-86ef-cd4f8891e5e5"
+                      alt=""
+                    />
+                  </div>
+                </SwiperSlide>
+              </Swiper>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="cta2_section pb-0 pt-0">
         <div className="container">
@@ -1226,7 +1481,8 @@ const QaAndTesting = () => {
               >
                 <div className="cta2_content_sec text-center w-100">
                   <h4 className="mb-4">
-                    Grow your business with PPC campaign management
+                    Sort out your digital marketing needs with the best digital
+                    marketing service provider in Kolkata.
                   </h4>
                   <Link className=" light-btn" to="/contact-us">
                     Contact Us
@@ -1242,7 +1498,7 @@ const QaAndTesting = () => {
 
       <section className="common_faq_section">
         <div className="container">
-          <div className="row">
+          <div className="row mb-5">
             <div className="col-md-6">
               <div className="faq_title">
                 <h4>
@@ -1267,8 +1523,8 @@ const QaAndTesting = () => {
                           aria-expanded="true"
                           aria-controls="faq1"
                         >
-                          <span>1.</span> What is the definition of QA testing
-                          interaction?
+                          <span>1.</span> What is Digital Marketing and How Can
+                          It Help You?
                         </button>
                       </h5>
                     </div>
@@ -1280,11 +1536,12 @@ const QaAndTesting = () => {
                       data-parent="#faqaccordian"
                     >
                       <div class="card-body">
-                        Quality testing is a procedure that ensures that a
-                        company delivers the best products or services. It is
-                        important to remember that QA does not include actual
-                        item testing. In the end, it all comes down to the
-                        process to achieve the best results.
+                        Digital marketing is a term that combines all forms of
+                        marketing that are carried out using electronic devices
+                        and some type of computer. This includes internet-based
+                        marketing campaigns. To contact customers with digital
+                        marketing, a firm may employ websites, search engines,
+                        blogs, social media, video, email, and other channels.
                       </div>
                     </div>
                   </div>
@@ -1299,7 +1556,8 @@ const QaAndTesting = () => {
                           aria-expanded="false"
                           aria-controls="faq2"
                         >
-                          <span>2.</span>Benefits of software testing services?
+                          <span>2.</span> Why is digital marketing so important
+                          for your company?
                         </button>
                       </h5>
                     </div>
@@ -1310,10 +1568,13 @@ const QaAndTesting = () => {
                       data-parent="#faqaccordian"
                     >
                       <div class="card-body">
-                        Testing as a Service (TaaS) is a re-appropriating model
-                        in which a specialist co-op, rather than in-lodging
-                        staff, performs testing exercises relating to a piece of
-                        an association's company operations.
+                        Digital marketing has become the standard for successful
+                        businesses and startups. If you are not using it, your
+                        company or startup will not develop as quickly as you
+                        would like. Businesses have benefited from digital
+                        marketing. It may result in increased sales and
+                        visibility. Increasing your earnings is your primary
+                        aim.
                       </div>
                     </div>
                   </div>
@@ -1328,8 +1589,8 @@ const QaAndTesting = () => {
                           aria-expanded="false"
                           aria-controls="faq3"
                         >
-                          <span>3.</span> How long does it take to conduct QA
-                          testing?
+                          <span>3.</span> What are the responsibilities of
+                          digital marketers?
                         </button>
                       </h5>
                     </div>
@@ -1340,11 +1601,12 @@ const QaAndTesting = () => {
                       data-parent="#faqaccordian"
                     >
                       <div class="card-body">
-                        Although time shifts vary depending on the complexity of
-                        the experiment, on average, a QA specialist takes about
-                        five minutes to complete one. However, if an
-                        inexperienced QA subject matter expert does the testing,
-                        you can safely estimate 10 minutes for a single test.
+                        Experts in digital marketing know-how to create and
+                        implement successful campaigns. An online marketer knows
+                        how to interact with a target audience via the internet.
+                        They make certain that your brand interacts with your
+                        target clients from the initial point of contact through
+                        after-sale care.
                       </div>
                     </div>
                   </div>
@@ -1359,8 +1621,8 @@ const QaAndTesting = () => {
                           aria-expanded="false"
                           aria-controls="faq4"
                         >
-                          <span>4.</span>How long has your testing and quality
-                          assurance staff been in the industry?
+                          <span>4.</span> Do you keep track of your work and
+                          offer reports?
                         </button>
                       </h5>
                     </div>
@@ -1371,12 +1633,8 @@ const QaAndTesting = () => {
                       data-parent="#faqaccordian"
                     >
                       <div class="card-body">
-                        Our team of testers and quality analysts has a combined
-                        experience of more than five years. They have worked in
-                        various businesses and on projects that were both simple
-                        and sophisticated during their careers. As a result,
-                        Excellis IT is an excellent choice for looking for a
-                        reputable QA testing company in Kolkata, India.
+                        Yes. Our clients receive weekly and monthly updates
+                        because we believe in total openness.
                       </div>
                     </div>
                   </div>
@@ -1391,8 +1649,8 @@ const QaAndTesting = () => {
                           aria-expanded="false"
                           aria-controls="faq5"
                         >
-                          <span>5.</span>Will you staff my project with a
-                          full-time manager?
+                          <span>5.</span>What are the finest digital marketing
+                          services for my company?
                         </button>
                       </h5>
                     </div>
@@ -1403,10 +1661,14 @@ const QaAndTesting = () => {
                       data-parent="#faqaccordian"
                     >
                       <div class="card-body">
-                        Yes. Excellis IT is a prominent software testing
-                        business that assigns a full-time project manager to
-                        your project. This project manager will keep you up to
-                        date on all your project's developments.
+                        Most organizations will want a well-designed website
+                        with bespoke web analytics integration to improve
+                        performance. SEO, PPC, and local SEO services will be
+                        required for more leads and sales in the future. The
+                        finest internet marketing services for your business are
+                        determined by various criteria, including your company's
+                        goals, budget, target audience, product/service, and so
+                        on.
                       </div>
                     </div>
                   </div>
@@ -1421,8 +1683,8 @@ const QaAndTesting = () => {
                           aria-expanded="false"
                           aria-controls="faq6"
                         >
-                          <span>5.</span>Are you able to provide services for
-                          automated testing?
+                          <span>6.</span>When it's about digital marketing, how
+                          long does it typically take to see results?
                         </button>
                       </h5>
                     </div>
@@ -1433,11 +1695,14 @@ const QaAndTesting = () => {
                       data-parent="#faqaccordian"
                     >
                       <div class="card-body">
-                        Yes, we provide automation testing services ranging from
-                        basic to complex. As a market-leading quality assurance
-                        tester, our firm employs various testing methods to
-                        avoid problems. We are also regarded for being a
-                        dependable automation testing firm.
+                        The results of your digital marketing efforts might take
+                        anywhere from a few weeks to months to show. Before
+                        seeing positive results from a digital marketing plan,
+                        you must stick with it for six to twelve months. It will
+                        also take longer if you do not repair all parts of your
+                        site (from backlinks to content to user experience), do
+                        not publish regularly, or do not provide high-quality
+                        material.
                       </div>
                     </div>
                   </div>
@@ -1453,4 +1718,4 @@ const QaAndTesting = () => {
   );
 };
 
-export default QaAndTesting;
+export default DigitalMarketing;

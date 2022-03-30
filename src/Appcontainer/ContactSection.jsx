@@ -45,12 +45,12 @@ const ContactSection = () => {
                   <p>Manager Operations USA &amp; CAN</p>
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="tel:+1 602 671 4455">
                         <i class="las la-phone-volume"></i> +1 602 671 4455
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="mailto:sourav.dutta@excellisit.com">
                         <i class="las la-envelope"></i>{" "}
                         sourav.dutta@excellisit.com
                       </a>
@@ -66,12 +66,12 @@ const ContactSection = () => {
                   <p>Manager Operations India</p>
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="tel:+91 821 721 8068">
                         <i class="las la-phone-volume"></i> +91 821 721 8068
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="mailto:harry@excellisit.com">
                         <i class="las la-envelope"></i> harry@excellisit.com
                       </a>
                     </li>
@@ -86,12 +86,12 @@ const ContactSection = () => {
                   <p>Director</p>
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="tel:+91 980 488 4444">
                         <i class="las la-phone-volume"></i> +91 980 488 4444
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="mailto:meraj@excellisit.com">
                         <i class="las la-envelope"></i> meraj@excellisit.com
                       </a>
                     </li>
@@ -106,12 +106,12 @@ const ContactSection = () => {
                   <p>Director Global Operation</p>
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="mailto:033 4060 1168">
                         <i class="las la-phone-volume"></i> 033 4060 1168
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="tel:ali@excellisit.com">
                         <i class="las la-envelope"></i> ali@excellisit.com
                       </a>
                     </li>

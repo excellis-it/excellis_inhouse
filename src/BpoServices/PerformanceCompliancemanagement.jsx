@@ -169,8 +169,8 @@ const PerformanceCompliancemanagement = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
-                    alt="Content Marketing"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2FPerformance-compliance.jpg?alt=media&token=e2ffc737-73d0-405f-b95f-b8cabeb6fd60"
+                    alt="Performance and compliance management"
                     className="img-fluid"
                   />
                 </div>

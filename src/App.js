@@ -41,6 +41,7 @@ import EcommerceOutsourcing from "./BpoServices/EcommerceOutsourcing";
 import PerformanceCompliancemanagement from "./BpoServices/PerformanceCompliancemanagement";
 import ProfessionalServices from "./BpoServices/ProfessionalServices";
 import ScrollToTop from "./ScrollToTop";
+import DigitalMarketing from "./MarketingServices/DigitalMarketing";
 
 function App() {
   AOS.init({
@@ -67,6 +68,7 @@ function App() {
           <Route exact path="/terms-and-condition" component={TermConditions} />
           <Route exact path="/contact-us" component={ContactUs} />
           <Route exact path="/itServices" component={ItServices} />
+          <Route exact path="/digital-marketing" component={DigitalMarketing} />
           <Route
             exact
             path="/mobile-app-development"

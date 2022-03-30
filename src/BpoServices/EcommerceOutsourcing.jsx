@@ -167,7 +167,7 @@ const EcommerceOutsourcing = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fecommerce-outsourcing.jpg?alt=media&token=8ba1771f-b502-48ec-bce9-2c5ac6e23ec3"
                     alt="Content Marketing"
                     className="img-fluid"
                   />

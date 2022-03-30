@@ -212,8 +212,8 @@ const About = ({ activeStatus }) => {
                         data-aos="reveal-right"
                       ></div>
                       <img
-                        src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/pic.jpg?alt=media&token=56ebdcb6-7ec5-4bb1-aedf-667afac01523"
-                        className=""
+                        src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/abt-building.jpg?alt=media&token=15ad6353-be00-4c0a-9cfc-16a1e484d2ef"
+                        className="img-fluid"
                         alt=""
                       />
                     </div>

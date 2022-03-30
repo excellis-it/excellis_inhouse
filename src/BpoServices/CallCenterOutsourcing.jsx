@@ -169,8 +169,8 @@ const CallCenterOutsourcing = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
-                    alt="Content Marketing"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fcall-center.jpg?alt=media&token=2705c84d-65a7-4cf9-97c8-e007ab2a994f"
+                    alt="Call Center"
                     className="img-fluid"
                   />
                 </div>

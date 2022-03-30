@@ -165,7 +165,7 @@ const ProfessionalServices = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fprofessional-services.jpg?alt=media&token=2269879f-3e09-4ecd-b893-37ee8ee3ec84"
                     alt="Content Marketing"
                     className="img-fluid"
                   />
