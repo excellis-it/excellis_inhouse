@@ -182,7 +182,7 @@ const MobileApplication = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/mobile-application.jpg?alt=media&token=077572ec-50e3-4ee8-8476-461a6796c7ea"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/itservices%2Fmobile-application.jpg?alt=media&token=e4aae625-07a6-409a-82d5-06799ccc8431"
                     className="img-fluid"
                   />
                 </div>
