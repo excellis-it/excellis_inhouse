@@ -152,7 +152,9 @@ const MainMenu = () => {
                 <div class="mainmenu">
                   <a class="mainmenu__item">It Services</a>
                   <a class="mainmenu__item">Bpo Services</a>
-                  <a class="mainmenu__item">Marketing Services</a>
+                  <a href="/digital-marketing" class="mainmenu__item">
+                    Marketing Services
+                  </a>
                   <a class="mainmenu__item">Cad Services</a>
                 </div>
                 <p class="label label--topleft label--vert-mirror">

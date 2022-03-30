@@ -174,8 +174,8 @@ const BackOfficeProcessOutsourcing = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
-                    alt="Content Marketing"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fbusiness-process-outsourcing.jpg?alt=media&token=9cc27e80-7923-4769-b0bf-8812f7dc69f6"
+                    alt="bpo"
                     className="img-fluid"
                   />
                 </div>

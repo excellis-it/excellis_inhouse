@@ -170,7 +170,7 @@ const ContentMarketing = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fcontent-marketing.jpg?alt=media&token=68747fde-60bb-4a50-b4e7-83016599fbae"
                     alt="Content Marketing"
                     className="img-fluid"
                   />

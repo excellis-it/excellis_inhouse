@@ -178,8 +178,8 @@ const SocialMediaMarketing = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
-                    alt="Sear engine optimization"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fsocial-media-marketing.jpg?alt=media&token=eb2c47af-3cae-4d36-86b6-5a364e469e4b"
+                    alt="Social Media Marketing"
                     className="img-fluid"
                   />
                 </div>

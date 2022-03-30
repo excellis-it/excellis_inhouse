@@ -192,6 +192,24 @@ ul {
 }
 
 /****header******/
+.review_link {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999999;
+  width: 425px;
+}
+.review_icon {
+  position: relative;
+}
+
+.review_link a {
+  display: block;
+  width: 25%;
+  height: 100%;
+}
 .big_logo {
   width: 50%;
 }
@@ -207,6 +225,10 @@ ul {
 }
 #fixed .navbar-nav {
   opacity: 0;
+  transition: ease-in all 1s;
+}
+.navbar-nav {
+  transition: ease-in all 1s;
 }
 #fixed {
   position: fixed;

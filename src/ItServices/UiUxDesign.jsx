@@ -175,7 +175,7 @@ const UiUxDesign = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/mobile-application.jpg?alt=media&token=077572ec-50e3-4ee8-8476-461a6796c7ea"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fui-ux-design.jpg?alt=media&token=e4c8dc07-0eb2-4f69-91a5-1b665890e76b"
                     className="img-fluid"
                   />
                 </div>

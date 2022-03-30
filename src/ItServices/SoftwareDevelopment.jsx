@@ -168,7 +168,7 @@ const SoftwareDevelopment = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/mobile-application.jpg?alt=media&token=077572ec-50e3-4ee8-8476-461a6796c7ea"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fsoftware-development.jpg?alt=media&token=7084d7f6-93e3-4182-aea7-56777ae0026d"
                     className="img-fluid"
                   />
                 </div>
