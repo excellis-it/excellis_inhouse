@@ -17,7 +17,7 @@ const Herobaner = () => {
                   <Typed
                     strings={[
                       "Here you can find anything",
-                      "Here you can find anythings",
+                      "Here you can find anything",
                     ]}
                     typeSpeed={20}
                     backSpeed={30}

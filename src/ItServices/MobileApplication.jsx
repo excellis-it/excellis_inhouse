@@ -32,7 +32,7 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 const MobileApplication = () => {
   const title = "Mobile Application";
   const description =
-    "“Are you looking for a reputable android app development company or hybrid app development company? Do not stress out; Excellis IT is the mobile app development agency you can hire fot to-of-the-line mobile app development services.”";
+    "“Are you looking for a reputable android and iOS app development company or hybrid app development company? Do not stress out; Excellis IT is the mobile app development agency you can hire as they have the best mobile app development services.”";
 
   var maxData = 3;
   let i = 2;
@@ -786,11 +786,11 @@ const MobileApplication = () => {
                     animationInDelay={10}
                     className="wht_tab_inner"
                   >
-                    <h4>Assurance and Assistance</h4>
+                    <h4>Creative strategy</h4>
                     <p>
-                      We never cut corners when it comes to offering
-                      high-quality services to our customers and giving ongoing
-                      support based on dialogue.
+                      We make sure that our one-of-a-kind user interface and
+                      creative approach are both aesthetically attractive and
+                      relevant to the customer's industry.
                     </p>
                   </Animated>
                 </div>
@@ -1260,7 +1260,7 @@ const MobileApplication = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Requirement Gathering</h3>
+                        <h3>Explanation of Requirements</h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -1268,11 +1268,14 @@ const MobileApplication = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            We start with a thorough discussion with our clients
-                            so that we understand their business offerings,
-                            business requirements, target audience, audience
-                            demographics, market competition, and industry
-                            trends.
+                            <ul>
+                              <li>Discover our customers.</li>
+                              <li>
+                                Recognize the needs and objectives of the
+                                customer.
+                              </li>
+                              <li>Offer ideas and solutions.</li>
+                            </ul>
                           </Scrollbars>
                         </p>
                       </div>
@@ -1296,7 +1299,7 @@ const MobileApplication = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Strategy & Planning</h3>
+                        <h3>Design & Wireframes</h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -1304,13 +1307,14 @@ const MobileApplication = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            After gaining an in-depth understanding of our
-                            client's business requirements, we start with a
-                            monthly plan as well as a yearly strategy for their
-                            SEO campaign. The plans and strategies are created
-                            as per the goals you are willing to accomplish with
-                            your online marketing and Search Engine Optimization
-                            strategy.
+                            <ul>
+                              <li>Establish a blueprint framework.</li>
+                              <li>For each app screen, create a wireframe.</li>
+                              <li>
+                                Create a UI/UX for your app. Creating an App
+                              </li>
+                            </ul>
+                            >
                           </Scrollbars>
                         </p>
                       </div>
@@ -1334,7 +1338,7 @@ const MobileApplication = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Keyword Research</h3>
+                        <h3>App development</h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -1342,11 +1346,12 @@ const MobileApplication = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            With the use of accurate keywords, you can make your
-                            Search Engine Optimization campaign successful as
-                            well as rank on SERPs. Our team uses the best online
-                            tools to research trending keywords to rank your
-                            website on the top of the search engine.
+                            <ul>
+                              <li>Creating a mobile application</li>
+                              <li>Main parts' placement</li>
+                              <li>Review and comments from clients</li>
+                            </ul>
+                            >
                           </Scrollbars>
                         </p>
                       </div>
@@ -1367,7 +1372,9 @@ const MobileApplication = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Website Amendments</h3>
+                        <h3>
+                          Testing and quality assurance for mobile applications
+                        </h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -1375,10 +1382,11 @@ const MobileApplication = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            Our SEO experts then analyze the technicalities and
-                            make the website in such a way that they meet the
-                            essential technical standard for their Search Engine
-                            Optimization campaign and bring in desired results.
+                            <ul>
+                              <li>Application testing is done in detail.</li>
+                              <li>Solutions that are 100% bug-free</li>
+                              <li>Obtain the client's final approval</li>
+                            </ul>
                           </Scrollbars>
                         </p>
                       </div>
@@ -1399,7 +1407,7 @@ const MobileApplication = () => {
                         />
                       </div>
                       <div class="prosses_text">
-                        <h3>Link Building</h3>
+                        <h3>The debut of the App</h3>
                         <p>
                           <Scrollbars
                             style={{ height: 100 }}
@@ -1407,78 +1415,21 @@ const MobileApplication = () => {
                             autoHideTimeout={1000}
                             autoHideDuration={200}
                           >
-                            Then we focus on off-page optimization activities as
-                            well as link building. We also initiate quality link
-                            building so that the site ranks higher.
+                            <ul>
+                              <li>
+                                The app-to-app stores are now open for business.
+                              </li>
+                              <li>
+                                Install the application on the server of the
+                                client.
+                              </li>
+                              <li>Marketing and promotion of apps</li>
+                            </ul>
                           </Scrollbars>
                         </p>
                       </div>
                       <div class="procc_img">
                         <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Flink-building-bg.jpg?alt=media&token=f2e9a022-4da3-49f1-a6c4-a380dce3e953" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div class="width_100">
-                      <div class="swiper_heding">
-                        <div className="step__count">6</div>
-                      </div>
-                      <div className="process__icon">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fcontent-creation.png?alt=media&token=af22f339-cf2c-45b1-90b6-a03921c7fc42"
-                          alt="Requirement Gathering icon"
-                        />
-                      </div>
-                      <div class="prosses_text">
-                        <h3>Content Creation & Update</h3>
-                        <p>
-                          <Scrollbars
-                            style={{ height: 100 }}
-                            autoHide
-                            autoHideTimeout={1000}
-                            autoHideDuration={200}
-                          >
-                            Our content writers then curate content and the SEO
-                            experts post them on various platforms. Our content
-                            is fresh and unique so that it improves your site
-                            rankings.
-                          </Scrollbars>
-                        </p>
-                      </div>
-                      <div class="procc_img">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fcontent-creation-bg.jpg?alt=media&token=72f9a8e1-d7fc-4649-897c-4c46c1c82d13" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div class="width_100">
-                      <div class="swiper_heding">
-                        <div className="step__count">7</div>
-                      </div>
-                      <div className="process__icon">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fregular-reporting.png?alt=media&token=0b91355e-a32a-496a-80e8-7a23b694b885"
-                          alt="Requirement Gathering icon"
-                        />
-                      </div>
-                      <div class="prosses_text">
-                        <h3>Regular Reporting</h3>
-                        <p>
-                          <Scrollbars
-                            style={{ height: 100 }}
-                            autoHide
-                            autoHideTimeout={1000}
-                            autoHideDuration={200}
-                          >
-                            Good SEO practices contain reporting too. Our Search
-                            Engine Optimization experts provide interpretable
-                            reports to their clients so that they can even know
-                            the benefits of the campaign.
-                          </Scrollbars>
-                        </p>
-                      </div>
-                      <div class="procc_img">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fregular-reporting-bg.jpg?alt=media&token=cdad0edd-c40b-44f6-a29e-6b6223a403c1" />
                       </div>
                     </div>
                   </SwiperSlide>

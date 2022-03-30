@@ -1112,7 +1112,7 @@ const GoogleMyBusiness = () => {
               >
                 <h6>Benefits</h6>
                 <h2 class="h2--WithLine">
-                  Benefits of Hiring Social Media Marketing Services
+                  Benefits of Hiring Google My Business Services
                 </h2>
               </div>
             </div>

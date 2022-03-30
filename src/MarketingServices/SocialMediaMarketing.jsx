@@ -420,7 +420,7 @@ const SocialMediaMarketing = () => {
                       src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fidea.png?alt=media&token=944eb2a5-fcc5-46fa-bcd2-cf145bc86bd3"
                       alt=""
                     />
-                    Strategies
+                    Data-driven Strategies
                   </a>
                 </li>
                 <li class="nav-item">

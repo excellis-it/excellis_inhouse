@@ -811,8 +811,6 @@ const DigitalMarketing = () => {
         </div>
       </section>
 
-      <IndustriesWeCovered />
-
       <section class="process_sec">
         <div class="container">
           <div class="row">

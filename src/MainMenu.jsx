@@ -152,9 +152,9 @@ const MainMenu = () => {
                 <div class="mainmenu">
                   <a class="mainmenu__item">It Services</a>
                   <a class="mainmenu__item">Bpo Services</a>
-                  <a href="/digital-marketing" class="mainmenu__item">
+                  <Link to="/digital-marketing" class="mainmenu__item">
                     Marketing Services
-                  </a>
+                  </Link>
                   <a class="mainmenu__item">Cad Services</a>
                 </div>
                 <p class="label label--topleft label--vert-mirror">
@@ -181,7 +181,7 @@ const MainMenu = () => {
                     <ul>
                       <li>
                         <a href="tel:(+91)8617724646">
-                          <img src="https://www.excellisit.com/img/india.png" />
+                          <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/india.png?alt=media&token=a7594991-9855-4e67-a094-a20b095aaf58" />
                           <i class="las la-phone-volume"></i>(+91) 861 772 4646{" "}
                         </a>
                       </li>
@@ -190,7 +190,7 @@ const MainMenu = () => {
                 </div>
                 <div class="menu_certifi_img d-none d-sm-block">
                   <img
-                    src="https://www.excellisit.com/img/iso-nascom-msme.jpg"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/iso-nascom-msme.jpg?alt=media&token=beb46356-500a-46ea-986d-5a22fc0d2fef"
                     class="img-fluid"
                   />
                 </div>

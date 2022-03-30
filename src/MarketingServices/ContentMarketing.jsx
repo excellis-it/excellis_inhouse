@@ -1575,35 +1575,6 @@ const ContentMarketing = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button
-                          class="btn collapsed"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#faq5"
-                          aria-expanded="false"
-                          aria-controls="faq5"
-                        >
-                          <span>5.</span>What should be the frequency of sending
-                          emails?
-                        </button>
-                      </h5>
-                    </div>
-                    <div
-                      id="faq5"
-                      class="collapse"
-                      aria-labelledby="headingThree"
-                      data-parent="#faqaccordian"
-                    >
-                      <div class="card-body">
-                        It’s ideal if you send 3-4 mails a month as that would
-                        create consistency in your audience’s mind and would not
-                        create a nuisance at the same time.
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

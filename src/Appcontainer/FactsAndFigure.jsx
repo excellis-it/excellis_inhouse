@@ -31,8 +31,8 @@ const FactsAndFigure = () => {
             >
               <div className="fact_box">
                 <div className="fact_box_wrapper">
-                  <h5>6 Years</h5>
-                  <p>longest cooperation with one client</p>
+                  <h5>6+ Years</h5>
+                  <p>Longest Co-operation with One Client</p>
                 </div>
               </div>
             </div>
@@ -95,8 +95,8 @@ const FactsAndFigure = () => {
                     data-aos-duration="2000"
                   >
                     <div className="fact_box_wrapper">
-                      <h5>ISO 27001:2013 </h5>
-                      <p>certified</p>
+                      <h5>ISO 9001:2015 </h5>
+                      <p>Certified</p>
                       <img
                         className="certificate_icon"
                         src={certificate}
@@ -134,8 +134,8 @@ const FactsAndFigure = () => {
                     data-aos-duration="2500"
                   >
                     <div className="fact_box_wrapper">
-                      <h5>16</h5>
-                      <p>clients with us for over 5 years</p>
+                      <h5>150+</h5>
+                      <p> Clients with Us for over 5 Years</p>
                     </div>
                   </div>
                 </div>
