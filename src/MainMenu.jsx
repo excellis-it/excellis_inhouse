@@ -28,7 +28,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/mobile-application"
+                    to="/mobile-app-development"
                   >
                     <span class="sidemenu__item-inner">Mobile Application</span>
                   </Link>

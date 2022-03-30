@@ -196,15 +196,12 @@ const Footer = () => {
             <div class="copyright_sec">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-5">
                     <div class="copyright">
-                      <p>© 2022 all rights reserved</p>
+                      <p>© 2022 all rights reserved | v-0.3</p>
                     </div>
                   </div>
-                  <div className="col-md-4 text-center">
-                    <div className="app_version">Ver : 0.2</div>
-                  </div>
-                  <div class="col-md-4">
+                  <div class="col-md-7">
                     <div class="copyright_menu">
                       <ul>
                         <li>
