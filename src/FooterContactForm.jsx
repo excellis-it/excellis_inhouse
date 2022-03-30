@@ -145,7 +145,7 @@ const FooterContactForm = () => {
                   <p>Manager Operations USA &amp; CAN</p>
                   <ul>
                     <li>
-                      <a href="tell:+1 602 671 4455">
+                      <a href="tel:+1 602 671 4455">
                         <i class="las la-phone-volume"></i> +1 602 671 4455
                       </a>
                     </li>

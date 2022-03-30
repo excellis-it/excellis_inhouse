@@ -170,7 +170,7 @@ const ContentMarketing = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fcontent-marketing.jpg?alt=media&token=68747fde-60bb-4a50-b4e7-83016599fbae"
                     alt="Content Marketing"
                     className="img-fluid"
                   />
@@ -1572,35 +1572,6 @@ const ContentMarketing = () => {
                         frequency. We recommend creating a content schedule that
                         would mix several mediums and help you maintain regular
                         posting.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button
-                          class="btn collapsed"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#faq5"
-                          aria-expanded="false"
-                          aria-controls="faq5"
-                        >
-                          <span>5.</span>What should be the frequency of sending
-                          emails?
-                        </button>
-                      </h5>
-                    </div>
-                    <div
-                      id="faq5"
-                      class="collapse"
-                      aria-labelledby="headingThree"
-                      data-parent="#faqaccordian"
-                    >
-                      <div class="card-body">
-                        It’s ideal if you send 3-4 mails a month as that would
-                        create consistency in your audience’s mind and would not
-                        create a nuisance at the same time.
                       </div>
                     </div>
                   </div>

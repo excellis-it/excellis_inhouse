@@ -182,7 +182,7 @@ const EmailMarketing = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Femail-marketing.jpg?alt=media&token=31b0a66e-cc0d-4f5f-9d77-0f6a5ccb90ae"
                     alt="Sear engine optimization"
                     className="img-fluid"
                   />

@@ -178,7 +178,7 @@ const PayPerClick = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fpay-per-click.jpg?alt=media&token=e5a20f08-abca-45c5-a9e2-448cee5aacb9"
                     alt="Sear engine optimization"
                     className="img-fluid"
                   />

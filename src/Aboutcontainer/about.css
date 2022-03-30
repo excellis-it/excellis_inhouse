@@ -294,9 +294,7 @@ p {
   position: relative;
   z-index: 1;
 }
-.img_c img {
-  width: calc(50vw + 12.7%);
-}
+
 .five {
   position: relative;
 }
@@ -772,9 +770,6 @@ p {
   .black_p {
     font-size: 20px;
     padding: 38px 0% 22px 11px;
-  }
-  .img_c img {
-    width: calc(50vw + 64.7%);
   }
 
   .title_c {

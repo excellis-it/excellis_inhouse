@@ -29,7 +29,7 @@ const Navbar = ({ activeStatus }) => {
     "https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/united-states.png?alt=media&token=0a2e6299-5598-42fe-8ee9-f15e4a920825";
 
   const logo =
-    "https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/logo-white.png?alt=media&token=e6de3af9-13d4-4699-8b77-0b8b2445bc3e";
+    "https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/shadow-logo.png?alt=media&token=e109619a-0fa8-4107-8666-d42d30b4730f";
   const logoicon =
     "https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/icon.png?alt=media&token=011a9301-ab67-4720-b403-7ffc908f4291";
 
@@ -78,7 +78,10 @@ const Navbar = ({ activeStatus }) => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-4 col-7">
-              <div className="iso_sec">ISO 9001:2015 Certified</div>
+              <div className="iso_sec">
+                <a href="#">ISO 9001:2015 Certified</a> |{" "}
+                <a href="#">central vigilance commission</a>
+              </div>
             </div>
             <div className="col-md-8 col-5">
               <div className="top_right_content">

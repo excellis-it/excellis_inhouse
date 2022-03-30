@@ -180,8 +180,8 @@ const GoogleMyBusiness = () => {
                     data-aos="reveal-right"
                   ></div>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/digital-marketing%2Fsmm%2Fsocial-media-marketing.jpg?alt=media&token=30d10037-9b6e-4698-b4c1-256bd5042e00"
-                    alt="Sear engine optimization"
+                    src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/inner_about_image%2Fgmb.jpg?alt=media&token=0f53ce3a-9201-4085-83cc-018ea2e896f5"
+                    alt="gmb"
                     className="img-fluid"
                   />
                 </div>
@@ -1112,7 +1112,7 @@ const GoogleMyBusiness = () => {
               >
                 <h6>Benefits</h6>
                 <h2 class="h2--WithLine">
-                  Benefits of Hiring Social Media Marketing Services
+                  Benefits of Hiring Google My Business Services
                 </h2>
               </div>
             </div>
