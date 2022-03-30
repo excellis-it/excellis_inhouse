@@ -1314,7 +1314,6 @@ const MobileApplication = () => {
                                 Create a UI/UX for your app. Creating an App
                               </li>
                             </ul>
-                            >
                           </Scrollbars>
                         </p>
                       </div>
@@ -1351,7 +1350,6 @@ const MobileApplication = () => {
                               <li>Main parts' placement</li>
                               <li>Review and comments from clients</li>
                             </ul>
-                            >
                           </Scrollbars>
                         </p>
                       </div>
