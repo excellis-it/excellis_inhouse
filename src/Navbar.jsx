@@ -167,7 +167,7 @@ const Navbar = ({ activeStatus }) => {
                       </Link>
                     </li> */}
                     <li className={activeStatus == "contact" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/ContactUs">
+                      <Link exact className="nav-link" to="/contact-us">
                         Contact
                       </Link>
                     </li>
