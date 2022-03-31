@@ -60,9 +60,12 @@ const Process = (activeStatus) => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Process</title>
-        <meta name="description" content="aboutpage" />
-        <meta name="keywords" content="about page" />
+        <title>Our Process | Excellis IT</title>
+        <meta
+          name="description"
+          content="We follow a strategic process that would help our client with the best from our end."
+        />
+        <link rel="canonical" href="https://www.excellisit.com/process" />
       </Helmet>
       <Navbar activeStatus="process" />
       <InnerBanner title={title} description={description} />

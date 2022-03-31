@@ -126,7 +126,7 @@ const QaAndTesting = () => {
         <meta name="robots" content="index, follow" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
-        <link rel="canonical" href="https://www.excellisit.com/qa-testing/" />
+        <link rel="canonical" href="https://www.excellisit.com/QA-testing" />
       </Helmet>
       <Navbar />
       <InnerBanner title={title} description={description} />

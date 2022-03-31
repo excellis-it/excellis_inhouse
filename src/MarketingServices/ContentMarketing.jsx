@@ -122,7 +122,7 @@ const ContentMarketing = () => {
         <meta name="language" content="English" />
         <link
           rel="canonical"
-          href="https://www.excellisit.com/content-making/"
+          href="https://www.excellisit.com/content-marketing"
         />
       </Helmet>
       <Navbar />

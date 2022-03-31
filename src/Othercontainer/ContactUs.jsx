@@ -23,7 +23,7 @@ const ContactUs = ({ activeStatus }) => {
         <meta name="robots" content="index, follow" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
-        <link rel="canonical" href="https://www.excellisit.com/contactus/" />
+        <link rel="canonical" href="https://www.excellisit.com/contact-us" />
       </Helmet>
       <Navbar activeStatus="contact" />
       <InnerBanner title={title} description={description} />
