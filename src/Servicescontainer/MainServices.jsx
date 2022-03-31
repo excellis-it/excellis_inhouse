@@ -10,9 +10,12 @@ const MainServices = ({ activeStatus }) => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Sevices Landing</title>
-        <meta name="description" content="aboutpage" />
-        <meta name="keywords" content="about page" />
+        <title>Our Services | Excellis IT</title>
+        <meta
+          name="description"
+          content="We provide a vast range of services for our clients. Our services include IT services, Digital marketing services, BPO services and CAD services"
+        />
+        <link rel="canonical" href="https://www.excellisit.com/OurServices" />
       </Helmet>
       <Navbar activeStatus="services" />
       <section className="main_servics_sec">

@@ -68,7 +68,7 @@ const About = ({ activeStatus }) => {
         <meta name="language" content="English" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="" />
-        <link rel="canonical" href="¬https://www.excellisit.com/about/" />
+        <link rel="canonical" href="https://www.excellisit.com/about/" />
       </Helmet>
       <Navbar activeStatus="about" />
       <InnerBanner title={title} description={description} />

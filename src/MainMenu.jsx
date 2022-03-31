@@ -271,13 +271,13 @@ const MainMenu = () => {
                     <span class="sidemenu__item-inner">Our Portfolio</span>
                   </Link>
 
-                  <Link
+                  {/* <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
                     to="/career"
                   >
                     <span class="sidemenu__item-inner">Career</span>
-                  </Link>
+                  </Link> */}
                   {/* <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
@@ -288,7 +288,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/ContactUs"
+                    to="/contact-us"
                   >
                     <span class="sidemenu__item-inner">Contact Us</span>
                   </Link>

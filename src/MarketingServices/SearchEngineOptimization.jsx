@@ -122,7 +122,7 @@ const SearchEngineOptimization = () => {
         <meta name="language" content="English" />
         <link
           rel="canonical"
-          href="https://www.excellisit.com/search-engine-marketing/"
+          href="https://www.excellisit.com/search-engine-optimization"
         />
       </Helmet>
       <Navbar />
