@@ -79,8 +79,7 @@ const Navbar = ({ activeStatus }) => {
           <div className="row">
             <div className="col-md-4 col-7">
               <div className="iso_sec">
-                <a href="#">ISO 9001:2015 Certified</a> |{" "}
-                <a href="#">central vigilance commission</a>
+                <a href="#">ISO 9001:2015 Certified</a>
               </div>
             </div>
             <div className="col-md-8 col-5">
