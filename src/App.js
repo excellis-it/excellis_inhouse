@@ -61,8 +61,8 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/OurServices" component={MainServices} />
           <Route exact path="/process" component={Process} />
-          <Route exact path="/blog" component={BlogPage} />
-          <Route exact path="/blogDetail/:Title" component={BlogDetails} />
+          {/* <Route exact path="/blog" component={BlogPage} /> */}
+          {/* <Route exact path="/blogDetail/:Title" component={BlogDetails} /> */}
           <Route exact path="/JobRole/:id" component={JobRole} />
           <Route exact path="/privacy-policy" component={PrivacyPolicy} />
           <Route exact path="/terms-and-condition" component={TermConditions} />

@@ -160,11 +160,14 @@ const Navbar = ({ activeStatus }) => {
                         Process
                       </Link>
                     </li>
-                    {/* <li className={activeStatus == "blog" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/Ourblogs">
+                    <li className={activeStatus == "blog" ? "active" : ""}>
+                      <a
+                        className="nav-link"
+                        href="https://www.excellisit.com/blog/"
+                      >
                         Blog
-                      </Link>
-                    </li> */}
+                      </a>
+                    </li>
                     <li className={activeStatus == "contact" ? "active" : ""}>
                       <Link exact className="nav-link" to="/contact-us">
                         Contact

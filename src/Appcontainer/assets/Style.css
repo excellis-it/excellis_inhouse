@@ -2254,6 +2254,12 @@ input[type="checkbox"]:checked::before {
   }
 }
 @media (max-width: 768px) {
+  .review_link {
+    width: 315px;
+  }
+  .review_icon img {
+    width: 100%;
+  }
   .contact_us__body_title_wrapper h4 {
     font-size: 25px;
   }

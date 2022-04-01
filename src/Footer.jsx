@@ -108,40 +108,43 @@ const Footer = () => {
                       <div class="footer-links footer_menu d-flex">
                         <ul>
                           <li>
-                            <a href="/back-office-process-outsourcing-services">
+                            <Link
+                              exact
+                              to="/back-office-process-outsourcing-services"
+                            >
                               <FaArrowRight />
                               Back office process outsourcing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/call-center-outsourcing-service">
+                            <Link exact to="/call-center-outsourcing-service">
                               <FaArrowRight />
                               Call center outsourcing{" "}
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/ecommerce-outsourcing-services">
+                            <Link exact to="/ecommerce-outsourcing-services">
                               <FaArrowRight />
                               Ecommerce outsourcing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/performance-compliance-management">
+                            <Link exact to="/performance-compliance-management">
                               <FaArrowRight />
                               Performance &amp; Compliance
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/professional-services">
+                            <Link exact to="/professional-services">
                               <FaArrowRight />
                               Profesional Services
-                            </a>
+                            </Link>
                           </li>
                           {/* <li>
-                            <a href="https://www.excellisit.com/innovation-at-excellis">
+                             <Link exact to="https://www.excellisit.com/innovation-at-excellis">
                               <FaArrowRight />
                               Innovation at EXCELLIS
-                            </a>
+                            </Link>
                           </li> */}
                         </ul>
                       </div>
@@ -151,40 +154,40 @@ const Footer = () => {
                       <div class="footer-links footer_menu d-flex">
                         <ul>
                           <li>
-                            <a href="/search-engine-optimization">
+                            <Link exact to="/search-engine-optimization">
                               <FaArrowRight />
                               Search engine Marketing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/social-media-marketing">
+                            <Link exact to="/social-media-marketing">
                               <FaArrowRight />
                               Social media marketing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/pay-per-click">
+                            <Link exact to="/pay-per-click">
                               <FaArrowRight />
                               Pay per click
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/email-marketing">
+                            <Link exact to="/email-marketing">
                               <FaArrowRight />
                               Email Marketing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/content-marketing">
+                            <Link exact to="/content-marketing">
                               <FaArrowRight />
                               Content Marketing
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="/google-my-business-optimization">
+                            <Link exact to="/google-my-business-optimization">
                               <FaArrowRight />
                               Google my business optimization
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>

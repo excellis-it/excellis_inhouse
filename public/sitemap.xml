@@ -5,6 +5,8 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>https://www.excellisit.com/</loc>
   <lastmod>2022-03-29T18:58:22+00:00</lastmod>
@@ -144,5 +146,10 @@
   <priority>0.90</priority>
 </url>
 
+<url>
+  <loc>https://www.excellisit.com/blog</loc>
+  <lastmod>2022-03-29T18:58:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
 
 </urlset>
