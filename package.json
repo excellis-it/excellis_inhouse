@@ -14,6 +14,7 @@
     "cors": "^2.8.5",
     "firebase": "^9.6.7",
     "jquery": "^3.6.0",
+    "next": "^12.1.4",
     "nodemailer": "^6.7.2",
     "phosphor-icons": "^1.4.1",
     "react": "^17.0.2",
@@ -26,8 +27,6 @@
     "react-icons": "^4.3.1",
     "react-id-swiper": "^4.0.0",
     "react-router": "5.2.0",
-    "react-router-dom": "5.2.0",
-    "react-scripts": "^5.0.0",
     "react-scroll": "^1.8.5",
     "react-slick": "^0.28.1",
     "react-spring": "^9.4.1",
@@ -40,10 +39,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "eslintConfig": {
     "extends": [
@@ -62,5 +60,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.43",
+    "typescript": "^4.6.3"
   }
 }
