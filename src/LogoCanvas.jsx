@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 import logoicon from "../src/image/logo_icon.png";
 import logoicon2 from "../src/image/logo_icon2.png";
 
@@ -49,12 +49,12 @@ function LogoCanvas() {
           data-sca
         />
       </div>
-      <Helmet>
+      <Head>
         <script
           src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/js%2Fnextparticle.min.js?alt=media&token=4128d869-bbfb-422e-b648-7764e7ddca76"
           type="text/javascript"
         />
-      </Helmet>
+      </Head>
     </div>
   );
 }

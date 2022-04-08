@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+// import { a } from "react-router-dom";
 import SubscribeForm from "./SubscribeForm";
 
 const Footer = () => {
@@ -62,37 +62,37 @@ const Footer = () => {
                   <div class="row">
                     <div class="col-md-4">
                       <h6>IT Services</h6>
-                      <div class="footer-links footer_menu d-flex">
+                      <div class="footer-as footer_menu d-flex">
                         <ul>
                           <li>
-                            <Link to="/mobile-app-development">
+                            <a to="/mobile-app-development">
                               <FaArrowRight />
                               Mobile Application
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="/software-development">
+                            <a to="/software-development">
                               <FaArrowRight />
                               Software Development
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="/ui-ux-design">
+                            <a to="/ui-ux-design">
                               <FaArrowRight />
                               UI/UX Design
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="/web-development">
+                            <a to="/web-development">
                               <FaArrowRight />
                               Web Development
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="/QA-testing">
+                            <a to="/QA-testing">
                               <FaArrowRight />
                               QA and Testing
-                            </Link>
+                            </a>
                           </li>
                           {/* <li>
                             <a href="https://www.excellisit.com/CAD-drawing-services">
@@ -105,7 +105,7 @@ const Footer = () => {
                     </div>
                     <div class="col-md-4">
                       <h6>BPO Services</h6>
-                      <div class="footer-links footer_menu d-flex">
+                      <div class="footer-as footer_menu d-flex">
                         <ul>
                           <li>
                             <a href="/back-office-process-outsourcing-services">
@@ -148,7 +148,7 @@ const Footer = () => {
                     </div>
                     <div class="col-md-4">
                       <h6>Marketing Services</h6>
-                      <div class="footer-links footer_menu d-flex">
+                      <div class="footer-as footer_menu d-flex">
                         <ul>
                           <li>
                             <a href="/search-engine-optimization">
@@ -208,18 +208,16 @@ const Footer = () => {
                     <div class="copyright_menu">
                       <ul>
                         <li>
-                          <Link to="/privacy-policy">Privacy Policy</Link>
+                          <a to="/privacy-policy">Privacy Policy</a>
                         </li>
                         <li>
-                          <Link to="/terms-and-condition">
-                            Terms and Conditions
-                          </Link>
+                          <a to="/terms-and-condition">Terms and Conditions</a>
                         </li>
                         <li>
-                          <Link to="/about">About Excellis</Link>
+                          <a to="/about">About Excellis</a>
                         </li>
                         {/* <li>
-                          <Link to="/Ourblogs">Learning Center</Link>
+                          <a to="/Ourblogs">Learning Center</a>
                         </li> */}
                       </ul>
                     </div>

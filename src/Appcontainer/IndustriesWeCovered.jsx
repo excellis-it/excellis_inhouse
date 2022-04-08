@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState, useRef } from "react";
-import "./assets/Style.css";
+// import "./assets/Style.css";
 import Typed from "react-typed";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

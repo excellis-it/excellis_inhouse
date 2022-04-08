@@ -1,9 +1,9 @@
 import React from "react";
-import "./assets/Style.css";
+// import "./assets/Style.css";
 import Typed from "react-typed";
 import axios from "axios";
 import BlogContent from "../BlogContent";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 export class OurBlog extends React.Component {
   constructor(props) {

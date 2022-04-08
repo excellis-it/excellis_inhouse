@@ -1,7 +1,7 @@
 import React from "react";
-import "./assets/Style.css";
+// import "./assets/Style.css";
 import Typed from "react-typed";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const BecomeAPartner = () => {
   return (
@@ -26,7 +26,7 @@ const BecomeAPartner = () => {
                     faster conversion time, technical assistant, expanded global
                     reach that too within an incubating environment.
                   </p>
-                  <Link to="/partner-with-us">
+                  <a to="/partner-with-us">
                     <button
                       data-aos="fade-up"
                       data-aos-duration="1500"
@@ -34,7 +34,7 @@ const BecomeAPartner = () => {
                     >
                       Explore More
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

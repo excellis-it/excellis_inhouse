@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./assets/Style.css";
 import { db, storage, ref as storageRef } from "../firebase";
 import ReCAPTCHA from "react-google-recaptcha";
 import { ref, uploadBytesResumable } from "firebase/storage";

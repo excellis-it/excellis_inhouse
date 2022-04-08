@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Animated } from "react-animated-css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Link from "next/link";
 import {
   FaFacebook,
   FaLinkedin,
@@ -28,14 +28,14 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/mobile-app-development"
+                    href="/mobile-app-development"
                   >
                     <span class="sidemenu__item-inner">Mobile Application</span>
                   </Link>
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/software-development"
+                    href="/software-development"
                   >
                     <span class="sidemenu__item-inner">
                       Software Development
@@ -44,14 +44,14 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/ui-ux-design"
+                    href="/ui-ux-design"
                   >
                     <span class="sidemenu__item-inner">UI/UX Design</span>
                   </Link>
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/web-development"
+                    href="/web-development"
                   >
                     <span class="sidemenu__item-inner">Web Development</span>
                   </Link>
@@ -59,7 +59,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/QA-testing"
+                    href="/QA-testing"
                   >
                     <span class="sidemenu__item-inner">QA and Testing</span>
                   </Link>
@@ -82,7 +82,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/back-office-process-outsourcing-services"
+                    href="/back-office-process-outsourcing-services"
                   >
                     <span class="sidemenu__item-inner">
                       Back office process outsourcing
@@ -91,7 +91,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/call-center-outsourcing-service"
+                    href="/call-center-outsourcing-service"
                   >
                     <span class="sidemenu__item-inner">
                       Call center outsourcing
@@ -100,7 +100,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/ecommerce-outsourcing-services"
+                    href="/ecommerce-outsourcing-services"
                   >
                     <span class="sidemenu__item-inner">
                       Ecommerce outsourcing
@@ -109,7 +109,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/performance-compliance-management"
+                    href="/performance-compliance-management"
                   >
                     <span class="sidemenu__item-inner">
                       Performance &amp; Compliance management
@@ -118,7 +118,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/professional-services"
+                    href="/professional-services"
                   >
                     <span class="sidemenu__item-inner">
                       Profesional Services
@@ -152,7 +152,7 @@ const MainMenu = () => {
                 <div class="mainmenu">
                   <a class="mainmenu__item">It Services</a>
                   <a class="mainmenu__item">Bpo Services</a>
-                  <Link to="/digital-marketing" class="mainmenu__item">
+                  <Link href="/digital-marketing" class="mainmenu__item">
                     Marketing Services
                   </Link>
                   <a class="mainmenu__item">Cad Services</a>
@@ -252,21 +252,21 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/about"
+                    href="/about"
                   >
                     <span class="sidemenu__item-inner">About Us</span>
                   </Link>
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/partner-with-us"
+                    href="/partner-with-us"
                   >
                     <span class="sidemenu__item-inner">Partner With Us</span>
                   </Link>
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/Portfolio"
+                    href="/Portfolio"
                   >
                     <span class="sidemenu__item-inner">Our Portfolio</span>
                   </Link>
@@ -274,21 +274,21 @@ const MainMenu = () => {
                   {/* <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/career"
+                    href="/career"
                   >
                     <span class="sidemenu__item-inner">Career</span>
                   </Link> */}
                   {/* <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/Ourblogs"
+                    href="/Ourblogs"
                   >
                     <span class="sidemenu__item-inner">Blog</span>
                   </Link> */}
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/contact-us"
+                    href="/contact-us"
                   >
                     <span class="sidemenu__item-inner">Contact Us</span>
                   </Link>
@@ -309,7 +309,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/search-engine-optimization"
+                    href="/search-engine-optimization"
                   >
                     <span class="sidemenu__item-inner">
                       Search engine Optimization
@@ -318,7 +318,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/social-media-marketing"
+                    href="/social-media-marketing"
                   >
                     <span class="sidemenu__item-inner">
                       Social media marketing
@@ -327,21 +327,21 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/pay-per-click"
+                    href="/pay-per-click"
                   >
                     <span class="sidemenu__item-inner">Pay per click</span>
                   </Link>
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/email-marketing"
+                    href="/email-marketing"
                   >
                     <span class="sidemenu__item-inner">Email Marketing</span>
                   </Link>
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/content-marketing"
+                    href="/content-marketing"
                   >
                     <span class="sidemenu__item-inner">Content Marketing</span>
                   </Link>
@@ -349,7 +349,7 @@ const MainMenu = () => {
                   <Link
                     activeClassName="navbar__link--active"
                     className=" sidemenu__item"
-                    to="/google-my-business-optimization"
+                    href="/google-my-business-optimization"
                   >
                     <span class="sidemenu__item-inner">
                       Google my business optimization

@@ -1,14 +1,28 @@
 import React from "react";
 import Typed from "react-typed";
 import { Animated } from "react-animated-css";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, EffectCards, Autoplay } from "swiper";
 import { Scrollbars } from "react-custom-scrollbars-2";
+import Head from "next/head";
 
 const HomeServicesSec = () => {
   return (
     <div>
+      <Head>
+        <script
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"
+        ></script>
+      </Head>
+      ;
       <section className="serices_section d-none d-sm-block">
         <div className="arrow_div">
           <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/arrow-design.svg?alt=media&token=2d324c90-5008-4ac7-b74d-562cc8fd83e8" />
@@ -106,7 +120,7 @@ const HomeServicesSec = () => {
                                 className="w-40"
                               >
                                 <div className="single_services">
-                                  <Link to="/web-development" className="">
+                                  <a href="/web-development" className="">
                                     <div className="services_icon development_icon"></div>
                                     <h4>Web Development</h4>
                                     <p>
@@ -124,7 +138,7 @@ const HomeServicesSec = () => {
                                         as well as credible.
                                       </Scrollbars>
                                     </p>
-                                  </Link>
+                                  </a>
                                 </div>
                               </Animated>
                               <Animated
@@ -139,7 +153,7 @@ const HomeServicesSec = () => {
                                     <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/ui-ux.jpg?alt=media&token=0aaee418-aa51-4409-8df8-95a013231316" />
                                   </div>
                                   <div className="single_img_services">
-                                    <Link to="/ui-ux-design" className="">
+                                    <a href="/ui-ux-design" className="">
                                       <div className="services_icon desigining_icon"></div>
                                       <h4>UI/UX Design</h4>
                                       <p>
@@ -160,7 +174,7 @@ const HomeServicesSec = () => {
                                           experience.
                                         </Scrollbars>
                                       </p>
-                                    </Link>
+                                    </a>
                                   </div>
                                 </div>
                               </Animated>
@@ -173,7 +187,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={300}
                                 className="w-60"
                               >
-                                <Link to="/ui-ux-design" className="">
+                                <a href="/ui-ux-design" className="">
                                   <div className="single_services d-flex p-0 min-h-220">
                                     <div className="singel_img_serv">
                                       <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/web-design.jpg?alt=media&token=44917a2f-e71e-4236-a8b9-c235182dcef3" />
@@ -198,7 +212,7 @@ const HomeServicesSec = () => {
                                       </p>
                                     </div>
                                   </div>
-                                </Link>
+                                </a>
                               </Animated>
                               <Animated
                                 animationIn="fadeInUp"
@@ -207,7 +221,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={400}
                                 className="w-40"
                               >
-                                <Link to="/mobile-app-development" className="">
+                                <a href="/mobile-app-development" className="">
                                   <div className="single_services min-h-220">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Mobile Application</h4>
@@ -237,7 +251,7 @@ const HomeServicesSec = () => {
                                       </p>
                                     </Scrollbars>
                                   </div>
-                                </Link>
+                                </a>
                               </Animated>
                             </div>
                             <div className="services_row">
@@ -248,7 +262,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={500}
                                 className="w-40"
                               >
-                                <Link to="/software-development" className="">
+                                <a href="/software-development" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Software Development</h4>
@@ -266,7 +280,7 @@ const HomeServicesSec = () => {
                                       </Scrollbars>
                                     </p>
                                   </div>
-                                </Link>
+                                </a>
                               </Animated>
                               <Animated
                                 animationIn="fadeInUp"
@@ -275,7 +289,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={600}
                                 className="w-60"
                               >
-                                <Link to="/QA-testing" className="">
+                                <a href="/QA-testing" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>QA & Testing</h4>
@@ -296,7 +310,7 @@ const HomeServicesSec = () => {
                                       </Scrollbars>
                                     </p>
                                   </div>
-                                </Link>
+                                </a>
                               </Animated>
                             </div>
                           </div>
@@ -322,8 +336,8 @@ const HomeServicesSec = () => {
                                 className="w-40"
                               >
                                 <div className="single_services">
-                                  <Link
-                                    to="/search-engine-optimization"
+                                  <a
+                                    href="/search-engine-optimization"
                                     className=""
                                   >
                                     <div className="services_icon development_icon"></div>
@@ -348,7 +362,7 @@ const HomeServicesSec = () => {
                                         rankings and become more visible.
                                       </Scrollbars>
                                     </p>
-                                  </Link>
+                                  </a>
                                 </div>
                               </Animated>
                               <Animated
@@ -363,8 +377,8 @@ const HomeServicesSec = () => {
                                     <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/social-media-marketing.jpg?alt=media&token=9c32ded7-059d-44d1-bbdc-2317ae1c63e5" />
                                   </div>
                                   <div className="single_img_services">
-                                    <Link
-                                      to="/social-media-marketing"
+                                    <a
+                                      href="/social-media-marketing"
                                       className=""
                                     >
                                       <div className="services_icon desigining_icon"></div>
@@ -382,7 +396,7 @@ const HomeServicesSec = () => {
                                           comprehensive services to businesses.
                                         </Scrollbars>
                                       </p>
-                                    </Link>
+                                    </a>
                                   </div>
                                 </div>
                               </Animated>
@@ -395,8 +409,8 @@ const HomeServicesSec = () => {
                                 animationInDelay={300}
                                 className="w-60"
                               >
-                                <Link
-                                  to="/search-engine-optimization"
+                                <a
+                                  href="/search-engine-optimization"
                                   className=""
                                 >
                                   <div className="single_services d-flex p-0 min-h-220">
@@ -425,7 +439,7 @@ const HomeServicesSec = () => {
                                       </p>
                                     </div>
                                   </div>
-                                </Link>
+                                </a>
                               </Animated>
                               <Animated
                                 animationIn="fadeInUp"
@@ -434,7 +448,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={400}
                                 className="w-40"
                               >
-                                <Link to="/content-marketing" className="">
+                                <Link href="/content-marketing" className="">
                                   <div className="single_services min-h-220">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Content Marketing</h4>
@@ -465,7 +479,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={500}
                                 className="w-40"
                               >
-                                <Link to="/pay-per-click" className="">
+                                <Link href="/pay-per-click" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Pay Per Click</h4>
@@ -492,7 +506,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={600}
                                 className="w-60"
                               >
-                                <Link to="/email-marketing" className="">
+                                <Link href="/email-marketing" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Email Marketing</h4>
@@ -537,8 +551,8 @@ const HomeServicesSec = () => {
                                 className="w-40"
                               >
                                 <div className="single_services">
-                                  <Link
-                                    to="/call-center-outsourcing-service"
+                                  <a
+                                    href="/call-center-outsourcing-service"
                                     className=""
                                   >
                                     <div className="services_icon development_icon"></div>
@@ -558,7 +572,7 @@ const HomeServicesSec = () => {
                                         assist you in that matter.
                                       </Scrollbars>
                                     </p>
-                                  </Link>
+                                  </a>
                                 </div>
                               </Animated>
                               <Animated
@@ -573,8 +587,8 @@ const HomeServicesSec = () => {
                                     <img src="https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/Back-Office-Process-Outsourcing.jpg?alt=media&token=2d82bf42-75ed-4bd2-a767-5c80f6ceb30d" />
                                   </div>
                                   <div className="single_img_services">
-                                    <Link
-                                      to="/back-office-process-outsourcing-services"
+                                    <a
+                                      href="/back-office-process-outsourcing-services"
                                       className=""
                                     >
                                       <div className="services_icon desigining_icon"></div>
@@ -592,7 +606,7 @@ const HomeServicesSec = () => {
                                           venture.
                                         </Scrollbars>
                                       </p>
-                                    </Link>
+                                    </a>
                                   </div>
                                 </div>
                               </Animated>
@@ -605,8 +619,8 @@ const HomeServicesSec = () => {
                                 animationInDelay={300}
                                 className="w-60"
                               >
-                                <Link
-                                  to="/performance-compliance-management"
+                                <a
+                                  href="/performance-compliance-management"
                                   className=""
                                 >
                                   <div className="single_services d-flex p-0 min-h-220">
@@ -635,7 +649,7 @@ const HomeServicesSec = () => {
                                       </p>
                                     </div>
                                   </div>
-                                </Link>
+                                </a>
                               </Animated>
                               <Animated
                                 animationIn="fadeInUp"
@@ -644,7 +658,10 @@ const HomeServicesSec = () => {
                                 animationInDelay={400}
                                 className="w-40"
                               >
-                                <Link to="/professional-services" className="">
+                                <Link
+                                  href="/professional-services"
+                                  className=""
+                                >
                                   <div className="single_services min-h-220">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Professional Services</h4>
@@ -674,7 +691,7 @@ const HomeServicesSec = () => {
                                 className="w-40"
                               >
                                 <Link
-                                  to="/ecommerce-outsourcing-services"
+                                  href="/ecommerce-outsourcing-services"
                                   className=""
                                 >
                                   <div className="single_services">
@@ -704,7 +721,7 @@ const HomeServicesSec = () => {
                                 animationInDelay={600}
                                 className="w-60"
                               >
-                                <Link to="/about" className="">
+                                <Link href="/about" className="">
                                   <div className="single_services">
                                     <div className="services_icon desigining_icon"></div>
                                     <h4>Innovation at Excellis It</h4>
@@ -801,7 +818,6 @@ const HomeServicesSec = () => {
           </div>
         </div>
       </section>
-
       <section class="res_tab_sec d-block d-sm-none">
         <div class="container">
           <div class="res_tab">

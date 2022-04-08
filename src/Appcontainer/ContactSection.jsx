@@ -1,5 +1,5 @@
 import React from "react";
-import "./assets/Style.css";
+// import "./assets/Style.css";
 import Typed from "react-typed";
 import ContactForm from "./ContactForm";
 

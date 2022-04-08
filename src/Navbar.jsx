@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Link from "next/link";
 import MainMenu from "./MainMenu";
 import Toggle from "./Toggle";
 import {
@@ -87,7 +86,7 @@ const Navbar = ({ activeStatus }) => {
                 <ul className="d-flex align-items-center justify-content-end mb-0">
                   <li>
                     <a href="mailto:info@excellisit.com">
-                      <i class="ph-envelope-simple"></i> info@excellisit.com
+                      <i className="ph-envelope-simple"></i> info@excellisit.com
                     </a>
                   </li>
                   <li>
@@ -105,7 +104,7 @@ const Navbar = ({ activeStatus }) => {
 
                   {/* <li>
                     <a href="#" className="text-yellow2">
-                      <i class="ph-phone-call"></i> Book a Call
+                      <i className="ph-phone-call"></i> Book a Call
                     </a>
                   </li> */}
                 </ul>
@@ -119,56 +118,56 @@ const Navbar = ({ activeStatus }) => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
-              <nav class="navbar navbar-expand-lg pr-0">
+              <nav className="navbar navbar-expand-lg pr-0">
                 <div className="logo">
-                  <Link to="/">
+                  <Link href="/">
                     <img className="" src={logo} alt="" />
                     {/* <img className="header_icon" src={logoicon} alt="" /> */}
                   </Link>
                 </div>
                 <button className="menu_open" onClick={() => setShow(true)}>
-                  <i class="ph-list"></i>
+                  <i className="ph-list"></i>
                 </button>
 
                 <div
-                  class="collapse navbar-collapse justify-content-end pr-5"
+                  className="collapse navbar-collapse justify-content-end pr-5"
                   id="navbarNav"
                 >
-                  <ul class="navbar-nav">
+                  <ul className="navbar-nav">
                     <li className={activeStatus == "home" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/">
+                      <a className="nav-link" href="/">
                         Home
-                      </Link>
+                      </a>
                     </li>
                     <li className={activeStatus == "about" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/about">
+                      <a className="nav-link" href="/about">
                         About Us
-                      </Link>
+                      </a>
                     </li>
                     <li className={activeStatus == "services" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/OurServices">
+                      <a exact className="nav-link" href="/OurServices">
                         Services
-                      </Link>
+                      </a>
                     </li>
                     <li className={activeStatus == "partner" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/partner-with-us">
+                      <a exact className="nav-link" href="/partner-with-us">
                         Partner With Us
-                      </Link>
+                      </a>
                     </li>
                     <li className={activeStatus == "process" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/process">
+                      <a exact className="nav-link" href="/process">
                         Process
-                      </Link>
+                      </a>
                     </li>
                     {/* <li className={activeStatus == "blog" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/Ourblogs">
+                      <Link exact className="nav-link" href="/Ourblogs">
                         Blog
                       </Link>
                     </li> */}
                     <li className={activeStatus == "contact" ? "active" : ""}>
-                      <Link exact className="nav-link" to="/contact-us">
+                      <a exact className="nav-link" href="/contact-us">
                         Contact
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -179,8 +178,8 @@ const Navbar = ({ activeStatus }) => {
       </section>
       <div className={`fullscreennav ${show ? "show" : ""}`}>
         <MainMenu />
-        <button class="action action--close" onClick={() => setShow(false)}>
-          <i class="ph-x"></i>
+        <button className="action action--close" onClick={() => setShow(false)}>
+          <i className="ph-x"></i>
         </button>
       </div>
     </div>

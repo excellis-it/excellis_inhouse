@@ -1,5 +1,5 @@
 import React from "react";
-import "./assets/Style.css";
+// import "./assets/Style.css";
 import Typed from "react-typed";
 const certificate =
   "https://firebasestorage.googleapis.com/v0/b/excellisit2022.appspot.com/o/high-quality.png?alt=media&token=3f389b90-844d-455f-bd60-042f10783b71";
