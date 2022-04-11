@@ -137,7 +137,7 @@ const Navbar = ({ activeStatus }) => {
                   <ul class="navbar-nav">
                     <li className={activeStatus == "home" ? "active" : ""}>
                       <Link exact className="nav-link" to="/">
-                        Home
+                        Home 2
                       </Link>
                     </li>
                     <li className={activeStatus == "about" ? "active" : ""}>
